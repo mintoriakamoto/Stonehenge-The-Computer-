@@ -48,7 +48,7 @@ Stonehenge was a **knowledge-transfer machine**, not a monument. The acoustic ch
 | 09_METROLOGY__THE_RULER | Sacred Rod |
 | 10_SYSTEM_ARCHITECTURE__THE_STACK | 5-layer stack |
 | 11_SIMULATIONS__THE_CODE | Executable Python models |
-| 12_VERIFICATION__THE_PROOF | V3R1T4S matrix |
+| 12_VERIFICATION__THE_PROOF | Verification matrix |
 | 13_PROTOCOLS__THE_USER_MANUAL | Visit protocol, measurement protocols |
 | 14_OPEN_QUESTIONS__THE_UNKNOWN | Blind spots |
 
@@ -83,9 +83,6 @@ The system worked for ~140 years (Stage 2). Broke when the hard drive was crushe
 
 **Three measurements. That's all it takes.**
 
----
-
-*Repository: `/home/xander/stonehenge_repo`*
-*Commit: `307f909` — "Stonehenge Machine: Complete reverse-engineering repository"*
-*GPU: NVIDIA CMP 170HX (42 GB HBM2e) — READY*
-*Verification: V3R1T4S — 12/12 claims verified*
+*Commit: `307f909` — "Stonehenge Machine: Complete
+*GPU: NVIDIA CMP 170HX (40GB HBM2e) — READY*
+*Verification:12/12 claims verified*
