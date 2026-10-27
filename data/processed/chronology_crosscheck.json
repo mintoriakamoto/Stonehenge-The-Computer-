@@ -1,0 +1,470 @@
+{
+  "curve": "IntCal20 (Reimer et al. 2020)",
+  "n_dates": 49,
+  "calibrations": {
+    "UB-3787": {
+      "bp": "4375\u00b119",
+      "context": "Ditch",
+      "intcal20_95": "3080-3060 cal BC (4.6%); 3030-2915 cal BC (90.9%)",
+      "published_95": "3085-2920",
+      "source": "BAYLISS1997"
+    },
+    "UB-3788": {
+      "bp": "4381\u00b118",
+      "context": "Ditch",
+      "intcal20_95": "3085-3060 cal BC (7.2%); 3030-2915 cal BC (88.3%)",
+      "published_95": "3095-2920",
+      "source": "BAYLISS1997"
+    },
+    "UB-3789": {
+      "bp": "4330\u00b118",
+      "context": "Ditch",
+      "intcal20_95": "3010-2895 cal BC (95.5%)",
+      "published_95": "3030-2910",
+      "source": "BAYLISS1997"
+    },
+    "UB-3790": {
+      "bp": "4367\u00b118",
+      "context": "Ditch",
+      "intcal20_95": "3075-3065 cal BC (0.8%); 3025-2910 cal BC (94.6%)",
+      "published_95": "3040-2915",
+      "source": "BAYLISS1997"
+    },
+    "UB-3792": {
+      "bp": "4365\u00b118",
+      "context": "Ditch",
+      "intcal20_95": "3075-3070 cal BC (0.2%); 3025-2910 cal BC (95.3%)",
+      "published_95": "3040-2915",
+      "source": "BAYLISS1997"
+    },
+    "UB-3793": {
+      "bp": "4393\u00b118",
+      "context": "Ditch",
+      "intcal20_95": "3090-3055 cal BC (17.4%); 3035-2920 cal BC (78.1%)",
+      "published_95": "3095-2920",
+      "source": "BAYLISS1997"
+    },
+    "UB-3794": {
+      "bp": "4432\u00b122",
+      "context": "Ditch",
+      "intcal20_95": "3325-3235 cal BC (20.3%); 3180-3155 cal BC (2.5%); 3110-3005 cal BC (64.0%); 2990-2930 cal BC (8.6%)",
+      "published_95": "3305-2925",
+      "source": "BAYLISS1997"
+    },
+    "BM-1583": {
+      "bp": "4410\u00b160",
+      "context": "Ditch",
+      "intcal20_95": "3335-3210 cal BC (22.5%); 3190-2905 cal BC (73.0%)",
+      "published_95": "3340-2910",
+      "source": "BAYLISS1997"
+    },
+    "BM-1617": {
+      "bp": "4390\u00b160",
+      "context": "Ditch",
+      "intcal20_95": "3330-3215 cal BC (16.5%); 3190-3150 cal BC (4.0%); 3125-2895 cal BC (74.9%)",
+      "published_95": "3330-2910",
+      "source": "BAYLISS1997"
+    },
+    "C-602": {
+      "bp": "3798\u00b1275",
+      "context": "Aubrey Hole 32",
+      "intcal20_95": "2920-1505 cal BC (95.4%)",
+      "published_95": "3020-1520",
+      "source": "BAYLISS1997"
+    },
+    "UB-3791": {
+      "bp": "4397\u00b118",
+      "context": "Ditch",
+      "intcal20_95": "3095-3050 cal BC (21.6%); 3040-2920 cal BC (73.8%)",
+      "published_95": "3095-2920",
+      "source": "BAYLISS1997"
+    },
+    "UB-3821": {
+      "bp": "4023\u00b121",
+      "context": "Sarsen Circle stone 1 socket",
+      "intcal20_95": "2620-2610 cal BC (0.5%); 2580-2470 cal BC (94.9%)",
+      "published_95": "2655-2485",
+      "source": "BAYLISS1997"
+    },
+    "OxA-4839": {
+      "bp": "3860\u00b140",
+      "context": "Sarsen Trilithon (pit WA 2448)",
+      "intcal20_95": "2465-2200 cal BC (95.5%)",
+      "published_95": "2470-2200",
+      "source": "BAYLISS1997"
+    },
+    "OxA-4840": {
+      "bp": "3985\u00b145",
+      "context": "Sarsen Trilithon stones 53/54 socket",
+      "intcal20_95": "2625-2345 cal BC (95.4%)",
+      "published_95": "2850-2400",
+      "source": "BAYLISS1997"
+    },
+    "BM-46": {
+      "bp": "3670\u00b1150",
+      "context": "Sarsen Trilithon (pit WA 2448)",
+      "intcal20_95": "2470-1670 cal BC (95.0%); 1655-1635 cal BC (0.4%)",
+      "published_95": "2480-1680",
+      "source": "BAYLISS1997"
+    },
+    "OxA-4878": {
+      "bp": "3740\u00b140",
+      "context": "Bluestone Circle",
+      "intcal20_95": "2285-2025 cal BC (95.5%)",
+      "published_95": "2290-2030",
+      "source": "BAYLISS1997"
+    },
+    "OxA-4900": {
+      "bp": "3865\u00b150",
+      "context": "Bluestone Circle",
+      "intcal20_95": "2470-2200 cal BC (94.7%); 2160-2150 cal BC (0.8%)",
+      "published_95": "2480-2140",
+      "source": "BAYLISS1997"
+    },
+    "OxA-4877": {
+      "bp": "3695\u00b155",
+      "context": "Bluestone Horseshoe",
+      "intcal20_95": "2280-2250 cal BC (2.8%); 2230-2220 cal BC (0.3%); 2210-1925 cal BC (92.4%)",
+      "published_95": "2280-1940",
+      "source": "BAYLISS1997"
+    },
+    "OxA-4837": {
+      "bp": "3995\u00b160",
+      "context": "Stone-hole E",
+      "intcal20_95": "2845-2810 cal BC (2.4%); 2740-2730 cal BC (0.4%); 2675-2295 cal BC (92.6%)",
+      "published_95": "2860-2350",
+      "source": "BAYLISS1997"
+    },
+    "OxA-4838": {
+      "bp": "3885\u00b140",
+      "context": "Stone-hole E",
+      "intcal20_95": "2470-2280 cal BC (87.5%); 2255-2205 cal BC (8.0%)",
+      "published_95": "2490-2200",
+      "source": "BAYLISS1997"
+    },
+    "OxA-4836": {
+      "bp": "3540\u00b145",
+      "context": "Z Hole 29",
+      "intcal20_95": "2020-1995 cal BC (3.4%); 1980-1745 cal BC (92.1%)",
+      "published_95": "2030-1740",
+      "source": "BAYLISS1997"
+    },
+    "UB-3822": {
+      "bp": "3341\u00b122",
+      "context": "Y Hole 30",
+      "intcal20_95": "1730-1720 cal BC (1.5%); 1690-1535 cal BC (94.1%)",
+      "published_95": "1735-1530",
+      "source": "BAYLISS1997"
+    },
+    "UB-3823": {
+      "bp": "3300\u00b119",
+      "context": "Y Hole 30",
+      "intcal20_95": "1615-1515 cal BC (95.6%)",
+      "published_95": "1675-1520",
+      "source": "BAYLISS1997"
+    },
+    "UB-3824": {
+      "bp": "3449\u00b124",
+      "context": "Y Hole 30",
+      "intcal20_95": "1880-1840 cal BC (23.0%); 1825-1685 cal BC (72.1%); 1650-1645 cal BC (0.4%)",
+      "published_95": "1880-1690",
+      "source": "BAYLISS1997"
+    },
+    "OxA-4884": {
+      "bp": "3935\u00b150",
+      "context": "Avenue Stonehenge terminal",
+      "intcal20_95": "2575-2285 cal BC (94.6%); 2250-2235 cal BC (0.9%)",
+      "published_95": "2580-2300",
+      "source": "BAYLISS1997"
+    },
+    "BM-1164": {
+      "bp": "3678\u00b168",
+      "context": "Avenue Stonehenge terminal",
+      "intcal20_95": "2285-2250 cal BC (2.9%); 2235-1885 cal BC (92.5%)",
+      "published_95": "2290-1890",
+      "source": "BAYLISS1997"
+    },
+    "OxA-4905": {
+      "bp": "3865\u00b140",
+      "context": "Avenue near Avon terminal",
+      "intcal20_95": "2465-2270 cal BC (80.0%); 2260-2205 cal BC (15.4%)",
+      "published_95": "2470-2200",
+      "source": "BAYLISS1997"
+    },
+    "HAR-2013": {
+      "bp": "3720\u00b170",
+      "context": "Avenue N side of A344",
+      "intcal20_95": "2345-1920 cal BC (95.1%); 1910-1900 cal BC (0.3%)",
+      "published_95": "2350-1930",
+      "source": "BAYLISS1997"
+    },
+    "OxA-18036": {
+      "bp": "4332\u00b135",
+      "context": "Aubrey Hole 32 primary fill",
+      "intcal20_95": "3075-3065 cal BC (1.3%); 3025-2885 cal BC (94.2%)",
+      "published_95": "3030-2880",
+      "source": "WILLIS2016"
+    },
+    "SUERC-30410": {
+      "bp": "4420\u00b135",
+      "context": "Burial 007 beside Aubrey Hole 7",
+      "intcal20_95": "3330-3225 cal BC (18.1%); 3185-3155 cal BC (3.3%); 3110-2915 cal BC (74.0%)",
+      "published_95": null,
+      "source": "WILLIS2016"
+    },
+    "OxA-27086": {
+      "bp": "4317\u00b133",
+      "context": "Burial 007 beside Aubrey Hole 7",
+      "intcal20_95": "3015-2885 cal BC (95.4%)",
+      "published_95": null,
+      "source": "WILLIS2016"
+    },
+    "OxA-17958": {
+      "bp": "3961\u00b129",
+      "context": "Ditch context 3893",
+      "intcal20_95": "2575-2515 cal BC (34.1%); 2505-2400 cal BC (52.3%); 2385-2345 cal BC (9.0%)",
+      "published_95": "2570-2360",
+      "source": "WILLIS2016"
+    },
+    "OxA-26962": {
+      "bp": "4281\u00b131",
+      "context": "Aubrey Hole 7 reburial (sample 110)",
+      "intcal20_95": "3010-2985 cal BC (3.4%); 2935-2870 cal BC (90.0%); 2800-2780 cal BC (2.1%)",
+      "published_95": "2920-2870",
+      "source": "WILLIS2016"
+    },
+    "OxA-26963": {
+      "bp": "4358\u00b134",
+      "context": "Aubrey Hole 7 reburial (sample 173)",
+      "intcal20_95": "3090-3055 cal BC (7.7%); 3035-2900 cal BC (87.8%)",
+      "published_95": "3090-2890",
+      "source": "WILLIS2016"
+    },
+    "OxA-26964": {
+      "bp": "4325\u00b131",
+      "context": "Aubrey Hole 7 reburial (sample 221)",
+      "intcal20_95": "3020-2890 cal BC (95.5%)",
+      "published_95": "3020-2890",
+      "source": "WILLIS2016"
+    },
+    "OxA-26965": {
+      "bp": "4101\u00b130",
+      "context": "Aubrey Hole 7 reburial (sample 223)",
+      "intcal20_95": "2865-2800 cal BC (22.5%); 2765-2715 cal BC (10.7%); 2705-2570 cal BC (60.1%); 2520-2500 cal BC (2.1%)",
+      "published_95": "2870-2500",
+      "source": "WILLIS2016"
+    },
+    "OxA-27045": {
+      "bp": "4456\u00b136",
+      "context": "Aubrey Hole 7 reburial (sample 246)",
+      "intcal20_95": "3340-3010 cal BC (93.8%); 2980-2965 cal BC (1.0%); 2945-2935 cal BC (0.7%)",
+      "published_95": "3340-2940",
+      "source": "WILLIS2016"
+    },
+    "OxA-27047": {
+      "bp": "4377\u00b131",
+      "context": "Aubrey Hole 7 reburial (sample 280)",
+      "intcal20_95": "3095-3050 cal BC (13.5%); 3040-2910 cal BC (82.0%)",
+      "published_95": "3100-2900",
+      "source": "WILLIS2016"
+    },
+    "OxA-27048": {
+      "bp": "4210\u00b131",
+      "context": "Aubrey Hole 7 reburial (sample 281)",
+      "intcal20_95": "2900-2845 cal BC (32.0%); 2815-2740 cal BC (45.0%); 2730-2670 cal BC (18.5%)",
+      "published_95": "2900-2690",
+      "source": "WILLIS2016"
+    },
+    "OxA-27049": {
+      "bp": "4237\u00b130",
+      "context": "Aubrey Hole 7 reburial (sample 288)",
+      "intcal20_95": "2910-2855 cal BC (58.1%); 2810-2750 cal BC (30.6%); 2725-2700 cal BC (6.7%)",
+      "published_95": "2910-2750",
+      "source": "WILLIS2016"
+    },
+    "OxA-27078": {
+      "bp": "4255\u00b133",
+      "context": "Aubrey Hole 7 reburial (sample 330)",
+      "intcal20_95": "2920-2860 cal BC (74.4%); 2805-2755 cal BC (17.7%); 2720-2700 cal BC (3.3%)",
+      "published_95": "2920-2790",
+      "source": "WILLIS2016"
+    },
+    "OxA-27081": {
+      "bp": "4348\u00b130",
+      "context": "Aubrey Hole 7 reburial (sample 366)",
+      "intcal20_95": "3080-3065 cal BC (2.4%); 3030-2895 cal BC (93.1%)",
+      "published_95": "3090-2890",
+      "source": "WILLIS2016"
+    },
+    "OxA-27082": {
+      "bp": "4404\u00b126",
+      "context": "Aubrey Hole 7 reburial (sample 389)",
+      "intcal20_95": "3265-3250 cal BC (1.3%); 3100-2915 cal BC (94.2%)",
+      "published_95": "3270-2910",
+      "source": "WILLIS2016"
+    },
+    "OxA-27084": {
+      "bp": "4364\u00b131",
+      "context": "Aubrey Hole 7 reburial (sample 596)",
+      "intcal20_95": "3090-3055 cal BC (8.0%); 3035-2900 cal BC (87.6%)",
+      "published_95": "3090-2900",
+      "source": "WILLIS2016"
+    },
+    "OxA-27085": {
+      "bp": "4340\u00b130",
+      "context": "Aubrey Hole 7 reburial (sample 211)",
+      "intcal20_95": "3075-3065 cal BC (0.6%); 3025-2895 cal BC (94.8%)",
+      "published_95": "3080-2890",
+      "source": "WILLIS2016"
+    },
+    "OxA-27090": {
+      "bp": "4413\u00b132",
+      "context": "Aubrey Hole 7 reburial (sample 336)",
+      "intcal20_95": "3320-3235 cal BC (11.2%); 3175-3160 cal BC (1.1%); 3105-2915 cal BC (83.1%)",
+      "published_95": "3310-2910",
+      "source": "WILLIS2016"
+    },
+    "OxA-27092": {
+      "bp": "4426\u00b133",
+      "context": "Aubrey Hole 7 reburial (sample 344)",
+      "intcal20_95": "3330-3225 cal BC (21.6%); 3185-3155 cal BC (4.0%); 3115-2920 cal BC (69.8%)",
+      "published_95": "3330-2920",
+      "source": "WILLIS2016"
+    },
+    "OxA-27093": {
+      "bp": "4180\u00b134",
+      "context": "Aubrey Hole 7 reburial (sample 382+323)",
+      "intcal20_95": "2890-2630 cal BC (95.5%)",
+      "published_95": "2890-2630",
+      "source": "WILLIS2016"
+    },
+    "OxA-30294": {
+      "bp": "4392\u00b130",
+      "context": "Aubrey Hole 7 reburial (sample 289)",
+      "intcal20_95": "3100-2910 cal BC (95.4%)",
+      "published_95": "3095-2920",
+      "source": "WILLIS2016"
+    }
+  },
+  "checks": {
+    "sarsen_construction_two_dates": {
+      "dates": [
+        "UB-3821 (circle stone 1)",
+        "OxA-4840 (trilithon 53/54)"
+      ],
+      "ward_wilson": {
+        "weighted_mean_bp": 4016.2,
+        "err": 19.0,
+        "T": 0.59,
+        "df": 1,
+        "T_crit_5pct": 3.841,
+        "consistent": true
+      },
+      "combined_intcal20_95": "2575-2470 cal BC (95.4%)",
+      "gap_trilithon_minus_circle": {
+        "median_years": -18,
+        "ci95_years": [
+          -197,
+          106
+        ],
+        "p_first_older": 0.383
+      },
+      "finding": "Only two antler dates date the sarsen structure. They pass the same-age test, yet the 95% range for the gap runs from the circle being 197 years older to the trilithon being 106 years older."
+    },
+    "rejected_ramp_dates": {
+      "four_date_test": {
+        "weighted_mean_bp": 3983.3,
+        "err": 17.1,
+        "T": 17.44,
+        "df": 3,
+        "T_crit_5pct": 7.815,
+        "consistent": false
+      },
+      "ramp_pair_test": {
+        "weighted_mean_bp": 3847.4,
+        "err": 38.6,
+        "T": 1.5,
+        "df": 1,
+        "T_crit_5pct": 3.841,
+        "consistent": true
+      },
+      "finding": "The four Phase 3 sarsen dates are not one event; Parker Pearson et al. 2007 reassigned OxA-4839/BM-46 to a later pit."
+    },
+    "y_hole_30_antlers": {
+      "ward_wilson": {
+        "weighted_mean_bp": 3352.2,
+        "err": 12.3,
+        "T": 24.07,
+        "df": 2,
+        "T_crit_5pct": 5.991,
+        "consistent": false
+      },
+      "finding": "The three Y30 antlers do not share one age, so at least one was old or intrusive when deposited."
+    },
+    "z29_vs_y30": {
+      "gap_z29_minus_y30_ub3822": {
+        "median_years": 263,
+        "ci95_years": [
+          98,
+          425
+        ],
+        "p_first_older": 0.999
+      }
+    },
+    "aubrey_hole_to_sarsen_gap": {
+      "dates": [
+        "OxA-18036 (cremation in Aubrey Hole 32 primary fill)",
+        "UB-3821 (sarsen circle)"
+      ],
+      "gap_years": {
+        "median_years": 426,
+        "ci95_years": [
+          328,
+          543
+        ],
+        "p_first_older": 1.0
+      },
+      "finding": "A cremation in Aubrey Hole 32's primary fill is 328-543 years (95%) older than the sarsen circle antler."
+    },
+    "burial_007": {
+      "ward_wilson": {
+        "weighted_mean_bp": 4365.5,
+        "err": 24.0,
+        "T": 4.58,
+        "df": 1,
+        "T_crit_5pct": 3.841,
+        "consistent": false
+      },
+      "combined_intcal20_95": "3080-3060 cal BC (4.0%); 3030-2905 cal BC (91.5%)",
+      "finding": "Reproduces Willis et al. 2016 (4366\u00b125 BP, T'=4.6): the two measurements fail the same-age test at 5%, and the source combined them anyway."
+    },
+    "phase1_ditch_antlers": {
+      "ward_wilson": {
+        "weighted_mean_bp": 4375.5,
+        "err": 6.9,
+        "T": 14.98,
+        "df": 8,
+        "T_crit_5pct": 15.507,
+        "consistent": true
+      },
+      "finding": "The nine ditch antlers pass the same-age test, but only narrowly (T'=14.98 vs 15.507)."
+    },
+    "repo_claim_stage2_140_years": {
+      "repo_says": "System worked ~140 years (Stage 2, 2620-2480 BC)",
+      "source_says": "Darvill et al. 2012 Table 3 gives 2620-2480 as \"suggested dates\"; their modelled Stage 2 runs from 2760-2510 cal BC to 2470-2300 cal BC.",
+      "duration_bounds_years": [
+        40,
+        460
+      ],
+      "finding": "Arithmetic on the published start and end ranges allows anything from ~40 to ~460 years. \"~140 years\" is a rounded table bracket, not a measured lifetime."
+    },
+    "repo_claim_altar_stone_crushed_2000bc": {
+      "source_says": "Darvill et al. 2012 p. 1033: the great trilithon fell after the Stage 4 bluestone oval (2205-1925 cal BC) but before 17th-century AD plans, so the Altar Stone \"could have been laid in its current position at any point between the Neolithic and the early modern era\".",
+      "finding": "No date supports collapse at ~2000 BC. The window is roughly 3,700 years wide."
+    },
+    "repo_claim_single_campaign": {
+      "source_says": "Darvill et al. 2012 offer two equally likely Stage 2 scenarios, one with the sarsen circle added \"years, decades, or centuries\" after the trilithons (p. 1033); their conclusion describes \"a long-term process of alteration\" over 15 centuries (p. 1038).",
+      "finding": "The radiocarbon data cannot distinguish a single campaign from one spread over a century or more."
+    }
+  }
+}

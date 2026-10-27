@@ -1,81 +1,78 @@
 # V3R1T4S VERIFICATION — THE COMPLETE MATRIX
 
-## VERIFICATION MATRIX (12/12 CLAIMS VERIFIED)
+Re-checked 2026-10-27 against primary sources and recalibrated radiocarbon. Details and quotations are in
+[docs/CHRONOLOGY_CROSSCHECK.md](../docs/CHRONOLOGY_CROSSCHECK.md) and [docs/PRECISION_ACOUSTICS.md](../docs/PRECISION_ACOUSTICS.md).
 
-| # | Claim | Evidence Source | Tier | Status |
-|---|-------|-----------------|------|--------|
-| 1 | 5-stage Bayesian chronology | Darvill 2012 (62 ¹⁴C) | 1 | VERIFIED |
-| 2 | Aubrey Holes = bluestone sockets | Parker Pearson 2009 | 1 | VERIFIED |
-| 3 | Waun Mawn = proto-Stonehenge | Parker Pearson 2021 (OSL) | 1 | VERIFIED |
-| 4 | Sarsens = West Woods (50/52) | Nash 2020 (PXRF+ICP-MS) | 1 | VERIFIED |
-| 5 | Quarry shutdown = Stage 1 cremation | Parker Pearson 2015/2019 | 1 | VERIFIED |
-| 6 | Solstitial axis (midwinter primary) | Ruggles 1997; EH 2024 | 1 | VERIFIED |
-| 7 | Station Stones = lunar standstill | Ruggles 1997; EH 2024-25 | 1 | VERIFIED |
-| 8 | Aubrey 56 = 3×nodal cycle | Hawkins 1965; Hoyle 1977 | 1 | VERIFIED |
-| 9 | Winter Hexagon translocation | Burley 2016 | 3 | UNVERIFIED |
-| 10 | T₃₀=0.64s, +4.3dB, 5dB exclusion | Cox 2020 (1:12 model) | 1 | VERIFIED |
-| 11 | Peak acoustic at Stage 2/3 | Cox Config (ii)→(iii) | 1 | VERIFIED |
-| 12 | 100% inside vs 33% outside | Cox §3.2 | 1 | VERIFIED |
-| 13 | Bluestone rearrangements inaudible | Cox Table 3 | 1 | VERIFIED |
-| 14 | Bluestone = ringing rock | Darvill & Wainwright 2014 | 1 | VERIFIED |
-| 15 | Durrington = 4,000 seasonal | Parker Pearson 2019 | 1 | VERIFIED |
-| 18 | Sacred Rod = Polar Radius/6M | Heath/Thom + Bayesian | 1 | VERIFIED |
-| 19 | Station Stones at 51.18°N | Ruggles 1997 | 1 | VERIFIED |
-| 20 | Dolerite Q=1000-5000 | Materials physics | 1 | VERIFIED |
-| 21 | Erection kills ringing | Gibbons 1970 | 1 | VERIFIED |
+**Status key**
+- **SUPPORTED**: the source says it.
+- **CONTESTED**: the source hedges, or it is debated in the literature.
+- **NOT SUPPORTED**: the source or the data say otherwise.
+- **UNVERIFIED**: not yet checked against a primary source.
 
-TOTAL: 12/12 Tier 1 VERIFIED. Zero Tier 4 claims. Zero contradictions.
+## VERIFICATION MATRIX
+
+| # | Claim | Evidence Source | Status | Note |
+|---|-------|-----------------|--------|------|
+| 1 | 5-stage Bayesian chronology | Darvill et al. 2012 | SUPPORTED | Modelled stages are broad. Stage 2 is 2760–2510 to 2470–2300 cal BC |
+| 2 | Aubrey Holes = bluestone sockets | Parker Pearson 2009; Darvill 2012 | CONTESTED | Darvill 2012: "possibly to hold bluestones and/or posts" |
+| 3 | Waun Mawn = proto-Stonehenge | Parker Pearson 2021 | CONTESTED | Disputed by Darvill 2022, *Antiquity* 96: 1515–1529 |
+| 4 | Sarsens = West Woods (50/52) | Nash 2020 | SUPPORTED | Stones 26 and 160 of unknown origin |
+| 5 | Quarry shutdown = Stage 1 cremation | Parker Pearson 2015/2019 | UNVERIFIED | |
+| 6 | Solstitial axis (midwinter primary) | Darvill 2012 | SUPPORTED | As interpretation: "strongly suggests" |
+| 7 | Station Stones = lunar standstill | Darvill 2012; Ruggles 1997 | SUPPORTED | "Aligned approximately" on major moonrise/moonset |
+| 8 | Aubrey 56 = 3 × nodal cycle | Hawkins 1965; Hoyle 1977 | CONTESTED | 3 × 18.613 = 55.84. Holes are ~330–540 yr older than the sarsen circle (IntCal20) |
+| 9 | Winter Hexagon translocation | Burley 2016 | UNVERIFIED | |
+| 10 | T₃₀ = 0.64 s, +4.3 dB | Cox 2020 | SUPPORTED | For the c. 2200 BC (Stage 4) layout. Reproduced by Sabine theory |
+| 10b | 5 dB exclusion | Cox 2020 | UNVERIFIED | Full paper not accessed |
+| 11 | Peak acoustic at Stage 2/3 | Cox 2020 | NOT SUPPORTED | Cox modelled c. 2200 BC |
+| 12 | 100% inside vs 33% outside | Cox §3.2 | UNVERIFIED | Full paper not accessed |
+| 13 | Bluestone rearrangements inaudible | Cox 2020 | SUPPORTED | Contradicts "precision acoustic tuning" elsewhere in this repo |
+| 14 | Bluestone = ringing rock | Darvill & Wainwright 2014 | UNVERIFIED | |
+| 15 | Durrington = 4,000 seasonal | Parker Pearson 2019 | UNVERIFIED | |
+| 16 | 114 Hz / 8.1 Hz chamber modes | — | NOT SUPPORTED | 114 Hz is in the diffuse field; 8.1 Hz is below the lowest mode. Cox measured 100–5,000 Hz |
+| 17 | Altar Stone from Orkney | Clarke 2024 | NOT SUPPORTED | Orcadian Basin, NE Scotland; not Mainland Orkney (Bevins et al. 2024) |
+| 18 | Sacred Rod = Polar Radius/6M | Heath/Thom | NOT SUPPORTED | Test uses a reconstructed rod as data and a hard-coded p-value |
+| 19 | Station Stones at 51.18°N | Ruggles 1997 | UNVERIFIED | |
+| 20 | Dolerite Q = 1000–5000 | — | UNVERIFIED | No source given |
+| 21 | Erection kills ringing | Gibbons 1970 | UNVERIFIED | |
+| 22 | Altar Stone crushed ~2000 BC | Darvill & Wainwright 2009 | NOT SUPPORTED | Darvill 2012 p. 1033: could have fallen any time from the Neolithic to the early modern era |
+| 23 | Sarsen phase lasted ~140 years | — | NOT SUPPORTED | 2620–2480 BC dates construction (Parker Pearson 2007). Published ranges allow 40–460 yr |
+
+**Totals:** 6 SUPPORTED, 3 CONTESTED, 6 NOT SUPPORTED, 9 UNVERIFIED (24 rows).
 
 ---
 
-## REFUTATION MATRIX
+## REFUTATION MATRIX (re-checked)
 
-| Mainstream Claim | V3R1T4S Refutation | Evidence |
-|------------------|-------------------|----------|
-| Built ad hoc over centuries | Single unified campaign (antler picks 2585–2475) | Darvill 2012 |
-| Heel Stone local/early | Heel Stone = West Woods chemistry | Nash 2020 |
-| No geodetic knowledge | Sacred Rod = Polar Radius/6M (0.006%) | Heath/Thom |
-| Bluestones for healing | Ringing killed by erection; peak acoustics = sarsen+bluestone density | Cox 2020 |
-| Aubrey holes for posts/timber | 56 = 3×18.618; cremations in AH32 | Parker Pearson 2009 |
-| Lunar alignment speculative | Station Stone long sides = standstill | EH 2024-25 |
-
----
-
-## THE STRANGER TEST (THE FINAL EXAM)
-
-```python
-def stranger_test(measurements):
-    checks = {
-        'aubrey_count_56': measurements['aubrey_hole_count'] == 56,
-        'aubrey_3x_nodal': abs(56 - 3*18.618) < 0.2,
-        'sarsen_30_rods': verify_metrology(...),
-        'station_lunar': verify_astronomy(...),
-        'acoustic_chamber': verify_acoustics(...),
-        'single_source': verify_logistics(...),
-        'heel_on_axis': abs(measurements['heel_stone_distance_m'] - 80) < 5,
-    }
-    return sum(checks.values()) == len(checks)
-```
+| Mainstream Claim | Repo's Refutation | Check |
+|------------------|-------------------|-------|
+| Built ad hoc over centuries | Single unified campaign (antler picks 2585–2475) | **Fails.** Darvill 2012 does not say this. The two dates cannot separate one campaign from a century-long one |
+| Heel Stone local/early | Heel Stone = West Woods chemistry | **Unverified.** No source found that the Heel Stone was sampled |
+| No geodetic knowledge | Sacred Rod = Polar Radius/6M | **Fails.** Circular test |
+| Bluestones for healing | Ringing killed by erection | **Unverified** |
+| Aubrey holes for posts/timber | 56 = 3 × 18.618; cremations in AH32 | **Contested.** Darvill 2012 keeps both bluestones and posts open |
+| Lunar alignment speculative | Station Stone long sides = standstill | **Supported** (approximate alignment) |
 
 ---
 
 ## CLAIM LEVEL
 
-**PARTIAL_WIN_CLAIM — 8/10 layers verified, 2 require new measurement.**
-
-### Confirmed Scope
-A Neolithic polity (c. 2620 BC) built a multi-functional instrument encoding geodesy, astronomy, acoustics, neurostimulation, logistics, and knowledge-decay timestamping in a single geometry, mobilizing pan-British labor for a single-generation peak that decayed over 1,500 years into ritual form.
+**HYPOTHESIS.** The physical measurements Stonehenge is known for (chronology, sarsen source, reverberation) are supported.
+The machine interpretation built on them (lineage packets, piezo storage, neural coupling, a 140-year operating life) has no direct evidence. Some parts of it are contradicted by the dates and the acoustics.
 
 ---
 
-## SOURCES (TIER 1)
-- Darvill et al. 2012 Antiquity 86 — 62 ¹⁴C dates, Bayesian
-- Cox et al. 2020 JAS 122:105218 — 1:12 scale model, 29 pairs
-- Nash et al. 2020 Sci Adv — 50/52 sarsens = West Woods
-- Clarke et al. 2024 Nature — Altar Stone = Orkney
-- Madgwick et al. 2019 Sci Adv — 131 pigs, 5 isotopes, 4 sites
-- Parker Pearson 2015/2019/2021 — Quarries, Waun Mawn, logistics
-- Darvill & Wainwright 2009 — Trilithon collapse
-- Ruggles 1997 PBA 92 — Station Stones lunar
-- Heath/Thom — Sacred Rod metrology
-- Statistical audit: 13-simulations/sacred_rod_audit.py
+## SOURCES
+- Darvill et al. 2012 *Antiquity* 86: 1021–1040
+- Bayliss, Bronk Ramsey & McCormac 1997 *Proc. British Academy* 92: 39–59
+- Parker Pearson et al. 2007 *Antiquity* 81: 617–39
+- Willis et al. 2016 *Antiquity* 90: 337–356
+- Reimer et al. 2020 IntCal20, *Radiocarbon* 62
+- Cox, Fazenda & Greaney 2020 *J. Archaeol. Sci.* 122: 105218
+- Nash et al. 2020 *Science Advances* 6: eabc0133
+- Clarke et al. 2024 *Nature* — Altar Stone from the Orcadian Basin
+- Bevins et al. 2024 — Altar Stone not from Mainland Orkney
+- Darvill 2022 *Antiquity* 96: 1515–1529 — Waun Mawn critique
+- Madgwick et al. 2019 *Science Advances* — 131 pigs, 4 sites
+- Ruggles 1997 *Proc. British Academy* 92 — Station Stones
+- Heath/Thom — Sacred Rod metrology (not peer-reviewed for the geodesy claim)

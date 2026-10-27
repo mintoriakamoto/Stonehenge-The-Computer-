@@ -2,9 +2,9 @@
 
 ## THE 5 STAGES (DARVILL ET AL. 2012 — 62 ¹⁴C DATES, OXCAL 4.1)
 
-| Stage | Date (95% cal BC) | Key Construction |
+| Stage | Suggested date, cal BC (Darvill 2012 Table 3; modelled ranges are wider) | Key Construction |
 |-------|-------------------|------------------|
-| **1** | 2950–2900 | Bank/ditch (110m Ø) + 56 Aubrey Holes (bluestone sockets) + cremations (3080-2890 BC) |
+| **1** | 3000–2620 | Bank/ditch (110m Ø) + 56 Aubrey Holes (bluestones and/or posts — contested) + cremations (3080-2890 BC) |
 | **2** | 2620–2480 | Trilithons + Sarsen Circle + **Double Bluestone Circle (Q/R)** — **PEAK** |
 | **3** | 2480–2280 | Bluestonehenge → Central Circle + Avenue built |
 | **4** | 2280–2020 | Bluestone Oval + Outer Circle (MAX STONE DENSITY) |
@@ -46,11 +46,13 @@
 | Stones remaining | 4 | 52 empty sockets = bluestone count |
 | Artifacts | Flint scraper (Carn Goedog type) | Direct quarry link |
 
-**HYPOTHESIS**: Waun Mawn dismantled → stones moved 240 km → became Stonehenge's Aubrey Hole bluestones.
+**HYPOTHESIS (disputed — Darvill 2022, *Antiquity* 96: 1515–1529)**: Waun Mawn dismantled → stones moved 240 km → became Stonehenge's Aubrey Hole bluestones.
 
 ---
 
-## SINGLE CAMPAIGN EVIDENCE
+## SINGLE CAMPAIGN EVIDENCE — NOT SUPPORTED
+
+> **Correction:** see [docs/CHRONOLOGY_CROSSCHECK.md](../docs/CHRONOLOGY_CROSSCHECK.md). Only two antler dates (UB-3821, OxA-4840) date the sarsen structure; recalibrated with IntCal20, the gap between them is anywhere from the circle 197 years older to the trilithon 106 years older (95%). Darvill et al. 2012 give a scenario where the circle followed "years, decades, or centuries" later. The 1,000–1,500 workers / 1–2 years figure below has no cited source.
 
 - **50/52 sarsens = West Woods** (Nash 2020, PXRF+ICP-MS)
 - Antler picks: Trilithons 2585-2400, Circle 2580-2475

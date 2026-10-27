@@ -32,7 +32,7 @@ Stonehenge was a **knowledge-transfer machine**, not a monument. The acoustic ch
 3. **EEG/HRV/vestibular during protocol** → Validates neural coupling
 
 ## Status
-**CLAIM LEVEL: PARTIAL_WIN_CLAIM** — 8/10 layers verified, 2 require new measurement.
+**CLAIM LEVEL: HYPOTHESIS** — chronology, sarsen source and reverberation are supported; the machine interpretation is untested. See [14-verification](14-verification/README.md).
 
 ## Repository Structure
 | Directory | Content |
@@ -73,7 +73,7 @@ python3 -c "import torch; print(torch.cuda.get_device_name(0))"
 ## The Three Numbers That Matter Most
 1. **Aubrey drift: −0.053 yr/step** (nodal period 18.6134 yr vs 56/3 = 18.6667) → Leap hole every 6 cycles (111.7 yr)
 2. **Chamber half-life: 1.7 generations** → Acoustic = Knowledge decay
-3. **Altar Stone piezo: 0.73 mV ± 13 µV** → Master Copy storage CONFIRMED
+3. **Altar Stone piezo: 0.73 mV ± 13 µV** → PREDICTION, never measured
 
 ---
 
@@ -83,12 +83,12 @@ python3 -c "import torch; print(torch.cuda.get_device_name(0))"
 
 The acoustic chamber (T30=0.64s, +4.3dB) created a phase-locked neural channel for one-to-one transfer of 56 lineage packets from elder to initiate at midwinter sunset, using 114 Hz chest resonance, 8 Hz vestibular drive, circadian melatonin surge, and whisper channel (+4.3 dB) for semantic encoding.
 
-The Altar Stone (Orkney micaceous sandstone, 700+ km) was the unique piezoelectric anchor at the acoustic focus — the Master Copy storage medium.
+The Altar Stone (Orcadian Basin sandstone, NE Scotland, 700+ km — not Mainland Orkney) is proposed here as a piezoelectric anchor at the acoustic focus — the Master Copy storage medium.
 
-The system worked for ~140 years (Stage 2). Broke when the hard drive was crushed. Maintained for 370 years by people who couldn't read it. Left a crash dump for the stranger.
+*Hypothesis:* the system worked during Stage 2 and broke when the Altar Stone was crushed. (The radiocarbon record gives no operating lifetime, and the great trilithon's fall onto the Altar Stone is undated — anywhere from after 2205–1925 cal BC to the 17th century AD. See [chronology cross-check](docs/CHRONOLOGY_CROSSCHECK.md).) Maintained for 370 years by people who couldn't read it. Left a crash dump for the stranger.
 
 **Three measurements. That's all it takes.**
 
 *Commit: `307f909` — "Stonehenge Machine: Complete
 *GPU: NVIDIA CMP 170HX (40GB HBM2e) — READY*
-*Verification:12/12 claims verified*
+*Verification: 6 supported, 3 contested, 6 not supported, 9 unverified — see [14-verification](14-verification/README.md)*

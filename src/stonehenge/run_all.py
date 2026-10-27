@@ -7,6 +7,7 @@ MODULES = [
     ('Sacred Rod Audit', 'sacred_rod_audit'),
     ('Altar Stone Predictions', 'altar_stone_predictions'),
     ('Precision Acoustics', 'acoustics_precision'),
+    ('Chronology Cross-check', 'chronology_crosscheck'),
     ('Master Report', 'master_report'),
 ]
 # chamber_fdtD allocates ~2.2 GB of voxel arrays; run it on its own with stonehenge-fdtd.
