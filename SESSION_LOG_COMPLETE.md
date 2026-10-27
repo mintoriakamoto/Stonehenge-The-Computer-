@@ -307,7 +307,7 @@ Generated files:
 | Bluestones = Preseli | VERIFIED | 1 | Parker Pearson 2015/2019 |
 | Aubrey 56 = bluestone sockets | VERIFIED | 1 | Hawley 1921 + 2008 |
 | Waun Mawn = proto-Stonehenge | VERIFIED | 1 | Parker Pearson 2021 |
-| Durrington = 4000 workers | VERIFIED | 1 | Madgwick 2019 |
+| Durrington = 4000 workers | UNSUPPORTED: Madgwick 2019's 4000 figure is for Mount Pleasant (seasonal population, c. 2500 BC), not Durrington builders | — | none |
 | Acoustic T₃₀ = 0.64s | VERIFIED | 1 | Cox 2020 JAS 122 |
 | Altar Stone = Orkney | VERIFIED | 1 | Clarke 2024 Nature |
 | Midwinter feasting | VERIFIED | 1 | Wright 2014 / Madgwick |

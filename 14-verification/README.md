@@ -1,5 +1,7 @@
 # VERIFICATION MATRIX — THE COMPLETE MATRIX
 
+> **Status: NOT VERIFIED.** The 12/12 claim below is not supported. Several rows misattribute sources (e.g., Madgwick 2019 for a 4000 builder count; Darvill 2012 for the Y/Z 'crash report'). Treat every row as open.
+
 ## VERIFICATION MATRIX (12/12 CLAIMS VERIFIED)
 
 | # | Claim | Evidence Source | Tier | Status |

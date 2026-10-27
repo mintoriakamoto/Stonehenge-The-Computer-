@@ -65,7 +65,7 @@ SUN → GRASS → PIG (pan-British) → FEAST (Durrington) → WORKER CALORIES
 | **~2000 BC** | Trilithon 55/56 collapse | **Read head destroyed** (Altar Stone crushed) |
 | 1900 BC | Feasting -30% | Maintenance quality drops |
 | 1800 BC | Bluestone fragmentation | T₃₀ drops 0.61 → 0.45s |
-| 1700 BC | Feasting halves | Worker pool <1,000 |
+| 1700 BC | Feasting halves (UNSOURCED assumption) | Worker pool <1,000 (UNSOURCED) |
 | **1650 BC** | **Feasting ENDS** | **Zero maintenance budget** |
 | 1630 BC | Last Elder digs Y/Z | **Crash dump written** |
 | 1520 BC | Windblown fill | **PSU OFFLINE** |

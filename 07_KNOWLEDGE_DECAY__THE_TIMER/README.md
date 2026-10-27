@@ -53,7 +53,7 @@
 | Initiate pool shrinking | ~2000 BC | Decay model | 1.7-gen half-life = 42.5 yr |
 | Altar Stone stress fractures | ~2000 BC | Trilithon collapse | 6t stone under 30t lintel |
 | Bluestone fragmentation | ~1800 BC | Hawley 1921 debitage | Fatigue failure |
-| Feasting isotope range narrowing | ~1700 BC | Madgwick 2019 | Catchment contracting |
+| Feasting isotope range narrowing | ~1700 BC | UNSUPPORTED: Madgwick samples are 2800–2400 BC | Not established |
 | Leap-hole knowledge loss | ~1650 BC | Aubrey 56 register | Last Elder died without successor |
 
 **The system had NO SILENT FAILURE MODE. Every warning was MEASURABLE IN THE PHYSICS.**

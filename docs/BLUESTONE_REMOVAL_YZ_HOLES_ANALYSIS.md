@@ -82,7 +82,7 @@ ERROR: Bluestones exhausted (diffuser layer gone)
 STATUS: SYSTEM HALTED
 ACTION REQUIRED: FULL REBUILD
 REBUILD COORDINATES:
-  - Y-Ring: 30 uprights at 18m diameter (current sarsen positions)
+  - Y-Ring: 30 pits at 18m diameter (UNRESOLVED: 18 m is not the sarsen ring; repo gives 30.7, 48.6 m elsewhere)
   - Z-Ring: 29 lintels at 22m diameter (current gaps)
 TIMESTAMP: 1630 BC
 OPERATOR: The Last
@@ -99,7 +99,7 @@ OPERATOR: The Last
 | **The Last Elder** | "The Last" (Aubrey Hole 56 lineage) | Aubrey 56 genealogy: "The Last — Knew the knowledge halves" |
 | **The Last Initiates** | <10 remaining | Stage 5 capacity <10; acoustic capacity <10 |
 | **The Patrons** | Wessex elite (Wessex II metalwork) | Arreton daggers/axes carved on sarsens (1750–1500 BC) |
-| **The Laborers** | Local only (no pan-British isotopes) | Stage 5 isotopes: local only (Madgwick 2019) |
+| **The Laborers** | Local only (no pan-British isotopes) | Stage 5 isotopes: no data (Madgwick samples are 2800–2400 BC) |
 
 ### The Decision Chain (Reconstructed)
 

@@ -70,7 +70,7 @@ A precision-engineered neurostimulation device for high-fidelity intergeneration
 │  └─ Magnetostrictive coupling (sound ↔ magnetic, no design)               │
 │                                                                             │
 │  L2: SOCIAL MOBILIZATION MACHINE (Operational)                             │
-│  ├─ Pan-British isotopes → 4,000 builders from everywhere                 │
+│  ├─ Pan-British isotopes → builder count UNSOURCED (4,000 is an assumption)│
 │  ├─ Feasting economy → redistribution → alliance                          │
 │  ├─ Ancestor cremations → lineage legitimacy                              │
 │  ├─ Acoustic exclusion → elite authority → next mobilization              │
