@@ -1,0 +1,11 @@
+{
+  "polar_radius_m": 6356752.3,
+  "sacred_rod_claimed_m": 1.0594587166666667,
+  "sacred_rod_heath_m": 1.05939336,
+  "rod_from_stonehenge_m": 1.024128,
+  "diff_heath_mm": 0.0653566666666272,
+  "diff_stonehenge_mm": 35.33071666666676,
+  "p_random_match": 0.0002,
+  "bayes_factor": 501.80255328850757,
+  "decision_rule": "Measure Stone 156 lintel to 0.5mm"
+}

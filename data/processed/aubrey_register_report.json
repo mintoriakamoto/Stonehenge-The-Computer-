@@ -1,0 +1,51 @@
+{
+  "total_transfer_cycles": 1101,
+  "standstills_recorded": 58,
+  "leap_holes_applied": 9,
+  "engineering_lost": 960,
+  "astronomy_lost": 760,
+  "genealogy_lost": 760,
+  "motor_lost": 960,
+  "drift_history": [
+    {
+      "standstill": 54,
+      "predicted": 8,
+      "observed": 8,
+      "error_holes": 0,
+      "leap_applied": true
+    },
+    {
+      "standstill": 55,
+      "predicted": 10,
+      "observed": 10,
+      "error_holes": 0,
+      "leap_applied": false
+    },
+    {
+      "standstill": 56,
+      "predicted": 11,
+      "observed": 11,
+      "error_holes": 0,
+      "leap_applied": false
+    },
+    {
+      "standstill": 57,
+      "predicted": 12,
+      "observed": 12,
+      "error_holes": 0,
+      "leap_applied": false
+    },
+    {
+      "standstill": 58,
+      "predicted": 13,
+      "observed": 13,
+      "error_holes": 0,
+      "leap_applied": false
+    }
+  ],
+  "final_markers": {
+    "Sun": 37,
+    "Moon": 33,
+    "Node": 8
+  }
+}
