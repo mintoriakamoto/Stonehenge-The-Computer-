@@ -1,4 +1,4 @@
-# STONEHENGE V3R1T4S — COMPLETE SYSTEMS ANALYSIS
+# STONEHENGE — COMPLETE SYSTEMS ANALYSIS
 
 ## What This Is
 A complete reverse-engineering of Stonehenge as a multi-functional instrument: astronomical clock, acoustic exclusion chamber, neurostimulation device, knowledge-transfer machine, and pan-British social mobilization system.
