@@ -68,6 +68,8 @@ Cerebellum writes motor engram
 
 ### THE PHYSICS
 
+> **Strangers' Audit:** 500 N × 1.4 pC/N = 7.0×10⁻¹⁰ **coulombs**, a charge, not 0.73 mV. Muscovite (C2/c) is centrosymmetric and cannot be piezoelectric. Quartz is, and the sarsens are 99.7 wt% SiO₂. See [docs/STRANGERS_AUDIT.md](../docs/STRANGERS_AUDIT.md).
+
 | Parameter | Value | Calculation |
 |-----------|-------|-------------|
 | Force | 500 N | Palm press |

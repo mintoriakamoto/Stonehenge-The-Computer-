@@ -26,6 +26,7 @@ setup(
             'stonehenge-report=stonehenge.master_report:main',
             'stonehenge-acoustics=stonehenge.acoustics_precision:main',
             'stonehenge-chronology=stonehenge.chronology_crosscheck:main',
+            'stonehenge-stranger=stonehenge.stranger_audit:main',
             'stonehenge-all=stonehenge.run_all:main',
         ],
     },

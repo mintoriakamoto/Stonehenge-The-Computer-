@@ -31,14 +31,20 @@ Re-checked 2026-10-27 against primary sources and recalibrated radiocarbon. Deta
 | 15 | Durrington = 4,000 seasonal | Parker Pearson 2019 | UNVERIFIED | |
 | 16 | 114 Hz / 8.1 Hz chamber modes | — | NOT SUPPORTED | 114 Hz is in the diffuse field; 8.1 Hz is below the lowest mode. Cox measured 100–5,000 Hz |
 | 17 | Altar Stone from Orkney | Clarke 2024 | NOT SUPPORTED | Orcadian Basin, NE Scotland; not Mainland Orkney (Bevins et al. 2024) |
-| 18 | Sacred Rod = Polar Radius/6M | Heath/Thom | NOT SUPPORTED | Test uses a reconstructed rod as data and a hard-coded p-value |
-| 19 | Station Stones at 51.18°N | Ruggles 1997 | UNVERIFIED | |
+| 18 | Sacred Rod = Polar Radius/6M | Heath/Thom | NOT SUPPORTED | Reconstructed rod, hard-coded p. A look-elsewhere test gives p = 0.004–0.04, not 0.0002 |
+| 19 | Station Stones ⟂ only at 51.18°N | Ruggles 1997 | NOT SUPPORTED | Computed angle at Stonehenge 91.3–93.4°; exact 90° at 49.9–50.7°N; a 0.5° rectangle fits a ~41 km band ([audit](../docs/STRANGERS_AUDIT.md)) |
 | 20 | Dolerite Q = 1000–5000 | — | UNVERIFIED | No source given |
 | 21 | Erection kills ringing | Gibbons 1970 | UNVERIFIED | |
 | 22 | Altar Stone crushed ~2000 BC | Darvill & Wainwright 2009 | NOT SUPPORTED | Darvill 2012 p. 1033: could have fallen any time from the Neolithic to the early modern era |
 | 23 | Sarsen phase lasted ~140 years | — | NOT SUPPORTED | 2620–2480 BC dates construction (Parker Pearson 2007). Published ranges allow 40–460 yr |
+| 24 | Solstitial axis matches 2500 BC sunrise/sunset | Lockyer 1901; computed | SUPPORTED | Computed 48.2–50.0° vs measured 49.6–50.2° |
+| 25 | Altar Stone piezo 0.73 mV via muscovite | — | NOT SUPPORTED | Muscovite is centrosymmetric (not piezoelectric). F × d is a charge (7×10⁻¹⁰ C), not a voltage |
+| 26 | Aubrey (56,3) cyclic code, d = 18 | — | NOT SUPPORTED | g = x³+x+1 gives d = 2 (as generator) or d = 32 (as check polynomial), never 18 |
+| 27 | Leap-hole rule (+1 hole per 6 revolutions) | computed | SUPPORTED | As arithmetic: within 0.43 hole after 1,100 yr. Use in prehistory untested |
+| 28 | Energy budget (02, REVERSE_ENGINEERING) | — | NOT SUPPORTED | Off ×1000 and ×42; the two docs contradict each other |
+| 29 | Strangers' Test `verify_crash_report()` = TRUE | — | NOT SUPPORTED | 3 PASS, 5 FAIL, 1 undetermined, 1 untestable |
 
-**Totals:** 6 SUPPORTED, 3 CONTESTED, 6 NOT SUPPORTED, 9 UNVERIFIED (24 rows).
+**Totals:** 8 SUPPORTED, 3 CONTESTED, 11 NOT SUPPORTED, 8 UNVERIFIED (30 rows).
 
 ---
 

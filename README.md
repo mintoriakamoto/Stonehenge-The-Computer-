@@ -91,4 +91,4 @@ The Altar Stone (Orcadian Basin sandstone, NE Scotland, 700+ km — not Mainland
 
 *Commit: `307f909` — "Stonehenge Machine: Complete
 *GPU: NVIDIA CMP 170HX (40GB HBM2e) — READY*
-*Verification: 6 supported, 3 contested, 6 not supported, 9 unverified — see [14-verification](14-verification/README.md)*
+*Verification: 8 supported, 3 contested, 11 not supported, 8 unverified — see [14-verification](14-verification/README.md) and the [Strangers' Audit](docs/STRANGERS_AUDIT.md)*

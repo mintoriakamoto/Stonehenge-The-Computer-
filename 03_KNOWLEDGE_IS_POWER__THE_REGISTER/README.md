@@ -14,6 +14,8 @@
 
 ## THE (56,3) CYCLIC CODE — REED-SOLOMON EQUIVALENT
 
+> **Strangers' Audit:** g(x) = x³+x+1 as a generator gives a (56,53) code with d = 2; as a check polynomial it gives a (56,3) code with d = 32. Neither gives d = 18, and a binary length-56 code is not Reed-Solomon. The leap-hole rule itself is arithmetically sound (drift −0.0533 yr; within 0.43 hole after 1,100 yr). See [docs/STRANGERS_AUDIT.md](../docs/STRANGERS_AUDIT.md).
+
 ```
 Generator polynomial: g(x) = x³ + x + 1  (primitive over GF(2))
 Codeword length: n = 56

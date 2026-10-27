@@ -49,6 +49,8 @@
 
 ## COMBINED ANOMALY PROBABILITY
 
+> **Strangers' Audit:** Look-elsewhere test: a random rod matches some Earth length / round number this well with p = 0.004–0.04, not 0.0002. The Station Stone right angle falls at 49.9–50.7°N, not uniquely 51.18°N. 10⁻⁴ × 5×10⁻³ × 3×10⁻³ = 1.5×10⁻⁹, not < 10⁻¹⁰. See [docs/STRANGERS_AUDIT.md](../docs/STRANGERS_AUDIT.md).
+
 | Anomaly | p-value |
 |---------|---------|
 | Sacred Rod = Polar Radius/6M | ~10⁻⁴ |

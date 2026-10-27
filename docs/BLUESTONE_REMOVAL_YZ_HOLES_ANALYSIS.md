@@ -214,6 +214,8 @@ WHEN: 1630–1520 BC. The final midnight.**
 
 ## THE STRANGERS' TEST — WHAT WE FOUND
 
+> **Run against published data, this test returns `False`: 3 PASS, 5 FAIL, 1 undetermined, 1 untestable.** The Y ring is ~54 m and the Z ring ~39 m (not 18/22 m), antlers were placed in the pits, and 43 bluestones survive. See [STRANGERS_AUDIT.md](STRANGERS_AUDIT.md).
+
 ```python
 # THE LAST OPERATORS LEFT A MESSAGE WE CAN STILL READ:
 
