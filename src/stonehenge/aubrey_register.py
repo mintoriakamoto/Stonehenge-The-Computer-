@@ -137,8 +137,12 @@ class AubreyRegister:
             'final_markers': {k.value: v for k,v in self.markers.items()},
         }
 
-if __name__ == "__main__":
+def main():
     reg = AubreyRegister()
     report = reg.simulate(2620, 1520)
     print(json.dumps(report, indent=2))
     with open('aubrey_register_report.json', 'w') as f: json.dump(report, f, indent=2)
+
+
+if __name__ == '__main__':
+    main()

@@ -39,6 +39,8 @@ RESULT: Phase-locked knowledge transfer
 | **Modal 110 Hz** | Chant carrier | Gamma nesting |
 | **Echo criterion** | < threshold | **NO ECHOES** — bluestones kill them |
 
+> **Correction (precision acoustics):** the 8.1 Hz, 110 Hz and 114 Hz rows are *not* from Cox 2020 and are not supported by the physics. The cylinder (1,1,0) mode is 18.25 Hz, not 8.1 Hz; the (20,20,0) mode is 322 Hz, not 114 Hz; and above the 27.6 Hz Schroeder frequency ~51 modes overlap in every modal bandwidth. See [docs/PRECISION_ACOUSTICS.md](../docs/PRECISION_ACOUSTICS.md).
+
 ### THE CONFIGURATION SWEEP (COX 2020 TABLE 2)
 
 | Config | Components | T₃₀ | ΔT₃₀ | Engineering Logic |

@@ -1,0 +1,268 @@
+{
+  "arithmetic": {
+    "piezo_force_times_d": {
+      "repo": "V = F x d14 = 500 N x 1.4 pC/N = 0.73 mV (04_THE_MASTER_COPY)",
+      "computed": "7.00e-10 C",
+      "finding": "F x d is a charge in coulombs, not a voltage, and 500 x 1.4e-12 = 7.0e-10, not 7.3e-4. A voltage needs a capacitance (V = Q/C), which the repo never states.",
+      "verdict": "WRONG (units and arithmetic)"
+    },
+    "energy_budget_02": {
+      "repo": "Pigs 10,000 x 100 kg x 20 MJ/kg = 20,000 MJ; labour 4,000 x 2,500 kcal x 200 d = 8,400 MJ",
+      "computed": {
+        "pigs_MJ": 20000000,
+        "labour_MJ": 8368000
+      },
+      "factor_off": {
+        "pigs": 1000.0,
+        "labour": 996
+      },
+      "verdict": "WRONG by a factor of 1000 in both lines"
+    },
+    "energy_budget_reverse_doc": {
+      "repo": "Human labour 4,000 x 200 days = ~200,000 MJ (REVERSE_ENGINEERING_STONEHENGE.md)",
+      "implied_MJ_per_person_day": 0.25,
+      "repo_own_2500_kcal_in_MJ": 10.46,
+      "verdict": "WRONG: implies 0.25 MJ/day, about 1/42 of the 2,500 kcal the repo assumes elsewhere. The two docs also disagree on inputs (1,000 x 50 kg pigs vs 10,000 x 100 kg)."
+    },
+    "lintel_level_percent": {
+      "repo": "<=3 cm over 30 m (0.01%)",
+      "computed_percent": 0.1,
+      "verdict": "WRONG: 3 cm / 30 m = 0.1%"
+    },
+    "combined_anomaly_p": {
+      "repo": "1e-4 x 5e-3 x 3e-3 -> p < 1e-10 (09_METROLOGY)",
+      "computed": 1.5000000000000002e-09,
+      "verdict": "WRONG even on its own inputs: the product is 1.5e-9. Multiplying p-values that were chosen after looking at the data is also not a valid test."
+    },
+    "rate_distortion_channel": {
+      "repo": "50 x 15,000 x 0.85 x 0.73 = 409,185 bits",
+      "computed": 465375.0,
+      "verdict": "WRONG: the stated factors give 465,375. 409,185 comes from different factors in knowledge_decay.py."
+    },
+    "aubrey_true_cycle": {
+      "repo": "56 / 3.049 = 18.37 -> true cycle",
+      "computed": 18.3667,
+      "true_nodal_period_years": 18.6133,
+      "verdict": "WRONG: 18.37 is 0.24 yr off the real 18.613-yr nodal period"
+    },
+    "leap_hole_rule": {
+      "repo": "Skip/add one hole every 6 standstills (111.7 yr)",
+      "drift_per_revolution_years": -0.05332,
+      "drift_days": -19.5,
+      "holes_slip_per_revolution": 0.16,
+      "revolutions_per_hole_slip": 6.252,
+      "residual_after_1100_years_holes": 0.43,
+      "verdict": "SOUND as arithmetic: one hole slips every 6.25 revolutions, so \"+1 hole per 6\" keeps the marker within half a hole for over a millennium. The repo gives the drift as +0.049 yr; it is -0.053 yr."
+    },
+    "altar_prediction_vs_lifetime": {
+      "repo": "Altar Stone holds 560 remanence layers at 18.6-yr spacing; 56 TL peaks at 18.6-yr periodicity",
+      "years_needed_560_layers": 10416,
+      "years_needed_56_peaks": 1042,
+      "repo_own_lifetimes_years": {
+        "working_life": 140,
+        "stage2_to_stage5": 1100
+      },
+      "standstills_in_140_years": 7.5,
+      "verdict": "SELF-CONTRADICTORY: 560 layers need 10,416 years and 56 peaks need 1,042 years, but the repo says the machine ran for 140 years (7.5 standstills)."
+    },
+    "yz_59_pits": {
+      "repo": "59 pits = 2 x 29.53 (lunar months)",
+      "computed": 59.061,
+      "verdict": "ARITHMETIC TRUE, MEANING UNSUPPORTED: Z hole 8 may lie under stone 8 (count uncertain), and any count near 59 matches something."
+    }
+  },
+  "acoustic_exclusion": {
+    "repo": "Builders at Durrington 2.5 km away excluded by a 5 dB acoustic shadow",
+    "speech_60dB_at_1m_heard_at_2500m_dB_SPL": -16.5,
+    "hearing_threshold_1kHz_dB_SPL": 0,
+    "verdict": "Distance alone puts speech about 17 dB below the threshold of hearing, before any stones. The 5 dB \"shadow\" plays no role in excluding anyone 2.5 km away."
+  },
+  "aubrey_code": {
+    "repo": "(56,3) cyclic code, generator g(x) = x^3+x+1, d_min = 18, corrects 8-hole bursts, \"Reed-Solomon equivalent\"",
+    "generator_degree_implies_k": 53,
+    "x7_plus_1_divisible_by_g": true,
+    "d_min_if_g_is_generator": 2,
+    "d_min_if_g_is_check_polynomial": 32,
+    "d_min_other_k3_codes": {
+      "x^3+x^2+1": 32,
+      "(x+1)^3": 28
+    },
+    "verdict": "WRONG: a degree-3 generator makes a (56,53) code, and since x^3+x+1 divides x^7+1 that code has weight-2 codewords (d = 2). Used as a check polynomial it gives a (56,3) code with d = 32. No version has d = 18. Reed-Solomon codes need symbols from a field with more than n elements, so a binary length-56 code cannot be one. And three moving markers are not codeword symbols anyway."
+  },
+  "astronomy": {
+    "epoch": "2500 BC",
+    "obliquity_deg": 23.9742,
+    "major_standstill_moon_declination_deg": 29.119,
+    "midsummer_sunrise_azimuth_by_horizon_alt": {
+      "0.0": 48.2,
+      "0.3": 48.8,
+      "0.6": 49.38,
+      "0.9": 49.95
+    },
+    "midwinter_sunset_azimuth_by_horizon_alt": {
+      "0.0": 230.95,
+      "0.3": 230.38,
+      "0.6": 229.81,
+      "0.9": 229.25
+    },
+    "axis_measured_lockyer_1901_deg": [
+      49.572,
+      50.2
+    ],
+    "station_rectangle": {
+      "geometric_convention": {
+        "angle_at_stonehenge_deg": 91.32,
+        "latitude_of_exact_right_angle": 50.66
+      },
+      "first_gleam_convention_angle_by_horizon_alt": {
+        "0.0": 92.95,
+        "0.3": 93.07,
+        "0.6": 93.21,
+        "0.9": 93.36
+      },
+      "first_gleam_latitude_of_exact_right_angle_by_horizon_alt": {
+        "0.0": 50.02,
+        "0.3": 49.98,
+        "0.6": 49.94,
+        "0.9": 49.88
+      },
+      "dangle_dlat_deg_per_deg": 2.718,
+      "latitude_band_width_deg_for_angle_within": {
+        "0.5": 0.37,
+        "1.0": 0.74
+      },
+      "band_km_for_0_5deg": 41,
+      "fraction_of_britain_latitudes_for_0_5deg": 0.042
+    },
+    "verdict": "At Stonehenge the two directions meet at 91.3 deg (simple geometry) to 93.4 deg (first gleam, refraction, parallax), not 90. An exact right angle falls at 49.9-50.7 N, south of Stonehenge. The angle changes 2.7 deg per degree of latitude, so a rectangle good to 0.5 deg fits a band ~41 km wide (4% of Britain's span). That is a loose coincidence, not \"ONLY at 51.18 N +/-50 km\"."
+  },
+  "sacred_rod_look_elsewhere": {
+    "repo": "p(random match) = 0.0002; p < 1e-4",
+    "heath_relative_error": 6.2e-05,
+    "random_rod_0.5_to_2m": {
+      "1-9 x 10^n": {
+        "candidate_targets": 48,
+        "p_match_as_good": 0.0042
+      },
+      "1-99 x 10^n": {
+        "candidate_targets": 485,
+        "p_match_as_good": 0.0402
+      }
+    },
+    "verdict": "With 8 Earth lengths and round divisors, a random rod length in 0.5-2 m matches something this well far more often than 1 in 5,000, and the rod itself (Heath) is a reconstruction, not a measurement."
+  },
+  "strangers_test": {
+    "repo_says": "all(checks) -> TRUE",
+    "checks": [
+      {
+        "check": "y_holes_30",
+        "claim": "Y holes = 30",
+        "evidence": "30 (Wikipedia, Y and Z Holes)",
+        "result": "PASS"
+      },
+      {
+        "check": "z_holes_29",
+        "claim": "Z holes = 29",
+        "evidence": "29 known; Z8 may lie under fallen stone 8",
+        "result": "PASS (with caveat)"
+      },
+      {
+        "check": "y_diameter_18m",
+        "claim": "Y ring 18 m",
+        "evidence": "Best-fit Y circuit ~54 m",
+        "result": "FAIL"
+      },
+      {
+        "check": "z_diameter_22m",
+        "claim": "Z ring 22 m",
+        "evidence": "Z circuit ~39 m (and Z is the inner ring)",
+        "result": "FAIL"
+      },
+      {
+        "check": "fill_windblown",
+        "claim": "Windblown chalk ONLY",
+        "evidence": "Windblown, largely stone-free fill; antlers placed at the base; later finds (Iron Age to medieval pottery, coins, human remains)",
+        "result": "FAIL"
+      },
+      {
+        "check": "no_stone_imprints",
+        "claim": "Never held stones",
+        "evidence": "Darvill 2012: \"cannot rule out\" small standing stones",
+        "result": "UNDETERMINED"
+      },
+      {
+        "check": "rebuild_coords_match",
+        "claim": "Y/Z = current sarsen upright/lintel positions",
+        "evidence": "Sarsen circle ~30 m across; Y ~54 m, Z ~39 m",
+        "result": "FAIL"
+      },
+      {
+        "check": "altar_buried_under_55",
+        "claim": "Altar Stone under fallen 55",
+        "evidence": "Darvill 2012: great trilithon collapsed on top of it",
+        "result": "PASS"
+      },
+      {
+        "check": "bluestones_gone",
+        "claim": "Bluestones = 0",
+        "evidence": "43 traceable today (Wikipedia; repo 06_MATERIALS also says 43)",
+        "result": "FAIL"
+      },
+      {
+        "check": "knowledge_extinct",
+        "claim": "Oral tradition = 0",
+        "evidence": "Not a measurable quantity",
+        "result": "UNTESTABLE"
+      }
+    ],
+    "tally": {
+      "PASS": 3,
+      "FAIL": 5,
+      "UNDETERMINED": 1,
+      "UNTESTABLE": 1
+    },
+    "returns": false
+  },
+  "internal_contradictions": [
+    {
+      "a": "01_MUSIC: adding outer bluestones +0.03 s, inner oval +0.03 s (Cox config sweep)",
+      "b": "BLUESTONE_REMOVAL: adding bluestones -0.02 to -0.03 s",
+      "note": "Opposite signs for the same \"Cox 2020\" sweep"
+    },
+    {
+      "a": "Decay tables: Stage 4 (2200 BC) T30 = 0.61 s",
+      "b": "Cox 2020 modelled the c. 2200 BC layout: 0.64 s",
+      "note": "The repo assigns Cox's value to Stage 2 and a lower invented value to the stage Cox actually modelled"
+    },
+    {
+      "a": "Strangers' Test: bluestones_gone == 0 -> PASS",
+      "b": "06_MATERIALS: \"BLUESTONES (43 SURVIVING)\"",
+      "note": ""
+    },
+    {
+      "a": "Altar Stone table: sarsen quartz 99.7%, piezoelectric NONE",
+      "b": "Altar Stone ~60% quartz, piezo \"STRONG\" via muscovite",
+      "note": "Quartz is the piezoelectric mineral; muscovite (C2/c, point group 2/m) is centrosymmetric and cannot be"
+    },
+    {
+      "a": "Altar Stone = horizontal \"contact platform\"",
+      "b": "Darvill 2012: \"a former standing stone lying prone\"",
+      "note": ""
+    },
+    {
+      "a": "Stage 5 laborers \"local only (Madgwick 2019)\"",
+      "b": "Madgwick 2019 analysed Late Neolithic pigs (c. 2500 BC)",
+      "note": "Wrong period"
+    },
+    {
+      "a": "Leap-hole drift +0.049 yr",
+      "b": "Code: DRIFT = 18.618 - 56/3 = -0.049",
+      "note": "Sign flips between docs and code"
+    },
+    {
+      "a": "Avenue \"cutoff\" c/2W = 8.6 Hz matches 8.1 Hz mode",
+      "b": "Physics",
+      "note": "The fundamental mode of a duct has no cutoff; c/2W is where the first cross-mode starts. Low earth banks cannot guide a 41 m wavelength."
+    }
+  ]
+}

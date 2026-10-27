@@ -16,6 +16,8 @@
 
 ## THE ENERGY BUDGET (MADGWICK 2019 — 131 PIGS, 5 ISOTOPES)
 
+> **Strangers' Audit:** 10,000 × 100 kg × 20 MJ/kg = 20,000,000 MJ (not 20,000), and 4,000 × 2,500 kcal × 200 d = 8,368,000 MJ (not 8,400): both lines are off ×1000. Madgwick 2019 does not give herd sizes or energy. See [docs/STRANGERS_AUDIT.md](../docs/STRANGERS_AUDIT.md).
+
 | Energy Source | Quantity | Energy (MJ) | Notes |
 |---------------|----------|-------------|-------|
 | **Pig biomass** | 10,000 pigs × 100 kg | 20,000 MJ | 100 kg × 20 MJ/kg |

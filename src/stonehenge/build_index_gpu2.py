@@ -1,1 +1,0 @@
-scripts/index/build_index_gpu2.py

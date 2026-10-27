@@ -32,7 +32,7 @@ def sacred_rod_audit():
     
     return results
 
-if __name__ == "__main__":
+def main():
     results = sacred_rod_audit()
     POLAR_RADIUS = 6356752.3
     SACRED_ROD_CLAIMED = POLAR_RADIUS / 6_000_000
@@ -49,3 +49,7 @@ if __name__ == "__main__":
     print(f"Stonehenge vs Polar/6M diff: {abs(100.8*0.3048/30 - 6356752.3 / 6_000_000)*1000:.1f} mm")
     print(f"Bayes factor (H1=Polar/6M vs H0=Stonehenge): {stats.norm.pdf(3.4757 * 0.3048, 6356752.3 / 6_000_000, 0.01) / stats.norm.pdf(3.4757 * 0.3048, 100.8 * 0.3048 / 30, 0.01):.1f}")
     print(f"p(random match): {0.0002/1.0:.6f}")
+
+
+if __name__ == '__main__':
+    main()

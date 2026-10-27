@@ -65,7 +65,7 @@ class KnowledgeDecayModel:
                         mi_pairs[f"{d1}<->{d2}"] = mi
         return {'correlation_matrix': corr.tolist(), 'domains': list(self.domains.keys()), 'pairwise_mi_bits': mi_pairs}
 
-if __name__ == "__main__":
+def main():
     import numpy as np, json
     model = KnowledgeDecayModel()
     decay = model.simulate_decay(2620, 1520)
@@ -76,3 +76,7 @@ if __name__ == "__main__":
     print("Half-lives:", decay['half_lives'])
     print("Rate-distortion:", rd)
     print("MI pairs:", mi['pairwise_mi_bits'])
+
+
+if __name__ == '__main__':
+    main()

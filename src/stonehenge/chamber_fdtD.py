@@ -58,7 +58,7 @@ def create_medium(stones, dx=0.1):
     
     return (rho, c, alpha), {'dx':dx, 'Nx':Nx, 'Ny':Ny, 'Nz':Nz, 'min_c':min_c.tolist()}
 
-if __name__ == '__main__':
+def main():
     stones = []
     # Trilithons
     for i in range(5):
@@ -85,3 +85,7 @@ if __name__ == '__main__':
     with open('stonehenge_geometry.json', 'w') as f: json.dump(stones, f, indent=2)
     print(f"Grid: {grid['Nx']}x{grid['Ny']}x{grid['Nz']} = {grid['Nx']*grid['Ny']*grid['Nz']:,} voxels")
     print("Saved stonehenge_medium.npz and stonehenge_geometry.json")
+
+
+if __name__ == '__main__':
+    main()
