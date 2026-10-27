@@ -1,4 +1,4 @@
-# V3R1T4S VERIFICATION — THE COMPLETE MATRIX
+# VERIFICATION MATRIX — THE COMPLETE MATRIX
 
 ## VERIFICATION MATRIX (12/12 CLAIMS VERIFIED)
 
@@ -30,7 +30,7 @@ TOTAL: 12/12 Tier 1 VERIFIED. Zero Tier 4 claims. Zero contradictions.
 
 ## REFUTATION MATRIX
 
-| Mainstream Claim | V3R1T4S Refutation | Evidence |
+| Mainstream Claim | Refutation | Evidence |
 |------------------|-------------------|----------|
 | Built ad hoc over centuries | Single unified campaign (antler picks 2585–2475) | Darvill 2012 |
 | Heel Stone local/early | Heel Stone = West Woods chemistry | Nash 2020 |

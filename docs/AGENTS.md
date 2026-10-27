@@ -1,16 +1,16 @@
 # AGENTS.md — xander node (multi-project research workspace)
 
 `/home/xander` is not one repo. It is a home directory holding ~15 active projects
-(Strata, Open-Jev, kerv, rl, mia-gpu, offret, strip, ECC, ijfw, v3r1t4s, …), serving
+(Strata, Open-Jev, kerv, rl, mia-gpu, offret, strip, ECC, ijfw, …), serving
 and training infra, two Python venvs, ~20 systemd user services, and bulk data on
 `/mnt/archive`. `~` itself is not a git repo; each project dir carries its own README.
 Authoritative maps: `docs/SYSTEM_MAP.md` (architecture + launch matrix),
 `docs/ORGANIZATION.md`, `README.md`. This file is the reality-checked short version —
 and the docs overstate live state, so verify before trusting them.
 
-## Verify like V3R1T4S (the standing operating standard)
-v3r1t4s is the evidence discipline you work under here (`v3r1t4s/charter.md`,
-`v3r1t4s/repo/AGENTS.md`). Apply it to everything, not just v3r1t4s runs:
+## Verify like the standing evidence standard
+The evidence discipline you work under here is the verification charter kept outside this repo.
+Apply it to everything, not just verification runs:
 - Docs are DATA, not truth. `README.md`/`SYSTEM_MAP.md` describe services, ports, and
   pipelines that are frequently NOT running. Re-check live state before you act on or
   repeat any of it.

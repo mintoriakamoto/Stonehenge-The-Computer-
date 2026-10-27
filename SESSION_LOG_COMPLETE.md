@@ -13,7 +13,7 @@
 | **CUDA** | PyTorch 2.5+ on Python 3.10 |
 | **Repository** | `/home/xander/stonehenge_repo` |
 | **Git Commit** | `307f909` — "Stonehenge Machine: Complete reverse-engineering repository" |
-| **Verification Standard** | V3R1T4S (12/12 claims verified) |
+| **Verification Standard** | Verification Standard (12/12 claims verified) |
 
 ---
 
@@ -298,7 +298,7 @@ Generated files:
 
 ---
 
-## VERIFICATION MATRIX (V3R1T4S)
+## VERIFICATION MATRIX
 
 | Claim | Status | Tier | Source |
 |-------|--------|------|--------|

@@ -228,4 +228,4 @@ python3 -c "import torch; print(torch.cuda.get_device_name(0))"
 *Repository: `/home/xander/stonehenge_repo`*
 *Commit: `307f909` — "Stonehenge Machine: Complete reverse-engineering repository"*
 *GPU: NVIDIA CMP 170HX (42 GB HBM2e) — READY*
-*Verification: V3R1T4S — 12/12 claims verified*
+*Verification: 12/12 claims verified*
