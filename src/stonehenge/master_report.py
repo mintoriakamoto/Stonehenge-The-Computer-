@@ -29,5 +29,9 @@ def generate_master_report():
     with open('MASTER_REPORT.json', 'w') as f: json.dump(report, f, indent=2, default=str)
     print("MASTER_REPORT.json and .md created")
 
-if __name__ == '__main__':
+def main():
     generate_master_report()
+
+
+if __name__ == '__main__':
+    main()

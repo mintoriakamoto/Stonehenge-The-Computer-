@@ -1,1 +1,0 @@
-scripts/train/train_schema_scorer.py

@@ -64,7 +64,7 @@ def simulate_feasting(G, years=100):
         for n in G.nodes(): history[n].append(knowledge[n])
     return {'final': knowledge, 'history': history, 'equilibrium': {k: np.mean(v[-10:]) for k,v in history.items()}}
 
-if __name__ == "__main__":
+def main():
     G = build_network()
     analysis = {'degree': nx.degree_centrality(G), 'betweenness': nx.betweenness_centrality(G, weight='weight'),
                 'eigenvector': nx.eigenvector_centrality_numpy(G, weight='weight'),
@@ -78,3 +78,7 @@ if __name__ == "__main__":
     print("Centrality leaders:", {k: max(v, key=v.get) for k,v in {'deg':analysis['degree'], 'btw':analysis['betweenness'], 'eig':analysis['eigenvector']}.items()})
     print("Communities:", analysis['communities'])
     print("Equilibrium:", diff['equilibrium'])
+
+
+if __name__ == '__main__':
+    main()

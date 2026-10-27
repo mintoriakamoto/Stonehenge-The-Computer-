@@ -24,6 +24,7 @@ setup(
             'stonehenge-altar=stonehenge.altar_stone_predictions:main',
             'stonehenge-fdtd=stonehenge.chamber_fdtD:main',
             'stonehenge-report=stonehenge.master_report:main',
+            'stonehenge-acoustics=stonehenge.acoustics_precision:main',
             'stonehenge-all=stonehenge.run_all:main',
         ],
     },

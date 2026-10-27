@@ -19,8 +19,8 @@ Stonehenge was a **knowledge-transfer machine**, not a monument. The acoustic ch
 | T30 (500-1000 Hz) | 0.64 ± 0.03 s | Reverberation for memory encoding |
 | Speech gain | +4.3 ± 0.9 dB | 100% intelligibility facing away |
 | Outside attenuation | 5 dB | Acoustic exclusion |
-| Modal 114 Hz | Chest resonance | Cardiac entrainment → HRV coherence |
-| Modal 8.1 Hz | Infrasound | Vestibular → Hippocampal theta |
+| Modal 114 Hz | **Not a discrete mode** | ~51 modes overlap per bandwidth above 27.6 Hz Schroeder limit ([precision acoustics](docs/PRECISION_ACOUSTICS.md)) |
+| Modal 8.1 Hz | **Not supported** | 41.2 m wavelength > 29.6 m circle; lowest modes ≈17–18 Hz ([precision acoustics](docs/PRECISION_ACOUSTICS.md)) |
 | Aubrey 56 | 3 × 18.618 | Lunar nodal cycle counter |
 | Altar Stone piezo | 0.7 mV at 500N | Master Copy storage medium |
 | Knowledge half-life | 1.7 generations | Matches acoustic decay |
@@ -55,17 +55,23 @@ Stonehenge was a **knowledge-transfer machine**, not a monument. The acoustic ch
 ## Quickstart
 ```bash
 # Install
-pip install numpy scipy networkx matplotlib
+pip install -e .
 
-# Run all simulations
-python3 11_SIMULATIONS__THE_CODE/run_all.py
+# Run all simulations (writes JSON into the current directory)
+stonehenge-all
+
+# Precision acoustics only
+stonehenge-acoustics
+
+# Tests
+python3 -m unittest discover -s tests
 
 # GPU test (CMP 170HX)
 python3 -c "import torch; print(torch.cuda.get_device_name(0))"
 ```
 
 ## The Three Numbers That Matter Most
-1. **Aubrey drift: 0.049 yr/step** → Leap hole every 6 cycles (111.7 yr)
+1. **Aubrey drift: −0.053 yr/step** (nodal period 18.6134 yr vs 56/3 = 18.6667) → Leap hole every 6 cycles (111.7 yr)
 2. **Chamber half-life: 1.7 generations** → Acoustic = Knowledge decay
 3. **Altar Stone piezo: 0.73 mV ± 13 µV** → Master Copy storage CONFIRMED
 

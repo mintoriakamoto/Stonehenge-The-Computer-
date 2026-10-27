@@ -62,10 +62,14 @@ def generate_test_matrix(predictions):
     matrix['pass_threshold'] = '5/7 tests must pass for hypothesis confirmation'
     return matrix
 
-if __name__ == '__main__':
+def main():
     preds = generate_altar_stone_predictions()
     matrix = generate_test_matrix(preds)
     with open('altar_stone_test_matrix.json', 'w') as f:
         json.dump(matrix, f, indent=2)
     print('Predictions:', len(preds))
     print('Tier 1:', len(matrix['tier_1']), 'Tier 2:', len(matrix['tier_2']), 'Tier 3:', len(matrix['tier_3']))
+
+
+if __name__ == '__main__':
+    main()

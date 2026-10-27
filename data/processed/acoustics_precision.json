@@ -1,0 +1,336 @@
+{
+  "inputs": {
+    "temp_c": {
+      "distribution": [
+        "normal",
+        3.5,
+        2.5
+      ],
+      "basis": "Midwinter evening, Salisbury Plain (Met Office Dec means ~4 C) - ASSUMPTION"
+    },
+    "rh_pct": {
+      "distribution": [
+        "uniform",
+        80.0,
+        95.0
+      ],
+      "basis": "Midwinter relative humidity - ASSUMPTION"
+    },
+    "pressure_kpa": {
+      "distribution": [
+        "normal",
+        100.1,
+        1.5
+      ],
+      "basis": "~100 m altitude, synoptic spread - ASSUMPTION"
+    },
+    "radius_m": {
+      "distribution": [
+        "normal",
+        14.785,
+        0.05
+      ],
+      "basis": "Sarsen circle inner diameter 97.0 ft = 29.57 m (Thom)"
+    },
+    "height_m": {
+      "distribution": [
+        "normal",
+        4.9,
+        0.3
+      ],
+      "basis": "Upright ~4.1 m above ground + lintel ~0.8 m"
+    },
+    "gap_width_m": {
+      "distribution": [
+        "uniform",
+        0.8,
+        1.2
+      ],
+      "basis": "Gap between adjacent sarsen uprights"
+    },
+    "n_gaps": {
+      "distribution": [
+        "uniform",
+        30.0,
+        30.0
+      ],
+      "basis": "30 uprights -> 30 gaps"
+    },
+    "alpha_ground": {
+      "distribution": [
+        "uniform",
+        0.05,
+        0.3
+      ],
+      "basis": "Grass/chalk ground absorption, 500-1000 Hz - ASSUMPTION"
+    },
+    "alpha_stone": {
+      "distribution": [
+        "uniform",
+        0.01,
+        0.03
+      ],
+      "basis": "Dressed sarsen absorption - ASSUMPTION"
+    },
+    "t30_cox_s": {
+      "distribution": [
+        "normal",
+        0.64,
+        0.03
+      ],
+      "basis": "Cox et al. 2020 JAS 122:105218, 1:12 model, 500-1000 Hz - PUBLISHED"
+    },
+    "gain_cox_db": {
+      "distribution": [
+        "normal",
+        4.3,
+        0.9
+      ],
+      "basis": "Cox et al. 2020 speech amplification - PUBLISHED"
+    }
+  },
+  "samples": 200000,
+  "seed": 20200801,
+  "speed_of_sound_m_s": {
+    "median": 333.411,
+    "ci95": [
+      330.443,
+      336.357
+    ]
+  },
+  "volume_m3": {
+    "median": 3364.5,
+    "ci95": [
+      2958.4,
+      3774.8
+    ]
+  },
+  "reverb_t60_s": {
+    "sabine_model": {
+      "median": 0.591,
+      "ci95": [
+        0.511,
+        0.682
+      ]
+    },
+    "eyring_model": {
+      "median": 0.422,
+      "ci95": [
+        0.352,
+        0.506
+      ]
+    },
+    "cox_2020_measured": {
+      "median": 0.64,
+      "ci95": [
+        0.581,
+        0.699
+      ]
+    },
+    "cox_inside_sabine_ci95": true,
+    "note": "Diffuse-field formulas are approximate for a roofless ring; treat as a consistency check, not a derivation."
+  },
+  "schroeder_frequency_hz": {
+    "median": 27.58,
+    "ci95": [
+      25.59,
+      29.81
+    ]
+  },
+  "claim_114hz": {
+    "modes_per_hz_at_114": {
+      "median": 14.83,
+      "ci95": [
+        13.0,
+        16.69
+      ]
+    },
+    "modal_bandwidth_hz": {
+      "median": 3.44,
+      "ci95": [
+        3.15,
+        3.78
+      ]
+    },
+    "overlapping_modes_in_one_bandwidth": {
+      "median": 51.0,
+      "ci95": [
+        43.5,
+        59.3
+      ]
+    },
+    "cylinder_(20,20,0)_hz": 322.2,
+    "verdict": "114 Hz lies far above the Schroeder frequency: dozens of modes overlap, so no single 114 Hz resonance exists."
+  },
+  "claim_8_1hz": {
+    "wavelength_m": {
+      "median": 41.16,
+      "ci95": [
+        40.8,
+        41.53
+      ]
+    },
+    "circle_diameter_m": {
+      "median": 29.57,
+      "ci95": [
+        29.37,
+        29.77
+      ]
+    },
+    "cylinder_(1,1,0)_hz": 18.25,
+    "lowest_vertical_mode_hz": 17.01,
+    "verdict": "The 8.1 Hz wavelength exceeds the circle diameter and the lowest modes sit near 17-18 Hz; an open-topped ring cannot hold an 8 Hz mode."
+  },
+  "speech_gain_db": {
+    "barron_model_by_distance": {
+      "2m": {
+        "median": 0.83,
+        "ci95": [
+          0.71,
+          0.96
+        ]
+      },
+      "5m": {
+        "median": 3.19,
+        "ci95": [
+          2.82,
+          3.59
+        ]
+      },
+      "10m": {
+        "median": 6.21,
+        "ci95": [
+          5.58,
+          6.85
+        ]
+      },
+      "14m": {
+        "median": 7.67,
+        "ci95": [
+          6.91,
+          8.42
+        ]
+      }
+    },
+    "cox_2020_measured": {
+      "median": 4.3,
+      "ci95": [
+        2.54,
+        6.06
+      ]
+    },
+    "jnd_db": 1.0,
+    "note": "Barron theory assumes an enclosed diffuse field; Cox 4.3 dB falls between the 5 m and 10 m model values."
+  },
+  "air_absorption": {
+    "8.1Hz": {
+      "db_per_km": {
+        "median": 0.0022,
+        "ci95": [
+          0.0018,
+          0.0027
+        ]
+      },
+      "db_across_circle": {
+        "median": 6e-05,
+        "ci95": [
+          5e-05,
+          8e-05
+        ]
+      },
+      "audible_vs_jnd": false
+    },
+    "114Hz": {
+      "db_per_km": {
+        "median": 0.3234,
+        "ci95": [
+          0.3015,
+          0.3386
+        ]
+      },
+      "db_across_circle": {
+        "median": 0.00956,
+        "ci95": [
+          0.00891,
+          0.01002
+        ]
+      },
+      "audible_vs_jnd": false
+    },
+    "500Hz": {
+      "db_per_km": {
+        "median": 1.5552,
+        "ci95": [
+          1.4327,
+          1.863
+        ]
+      },
+      "db_across_circle": {
+        "median": 0.04598,
+        "ci95": [
+          0.04235,
+          0.05509
+        ]
+      },
+      "audible_vs_jnd": false
+    },
+    "1000Hz": {
+      "db_per_km": {
+        "median": 3.4284,
+        "ci95": [
+          3.26,
+          4.0422
+        ]
+      },
+      "db_across_circle": {
+        "median": 0.10137,
+        "ci95": [
+          0.09634,
+          0.11949
+        ]
+      },
+      "audible_vs_jnd": false
+    },
+    "2000Hz": {
+      "db_per_km": {
+        "median": 10.3446,
+        "ci95": [
+          8.4564,
+          13.9122
+        ]
+      },
+      "db_across_circle": {
+        "median": 0.30592,
+        "ci95": [
+          0.25008,
+          0.41119
+        ]
+      },
+      "audible_vs_jnd": false
+    },
+    "4000Hz": {
+      "db_per_km": {
+        "median": 36.8612,
+        "ci95": [
+          28.0779,
+          49.1697
+        ]
+      },
+      "db_across_circle": {
+        "median": 1.09003,
+        "ci95": [
+          0.83016,
+          1.45341
+        ]
+      },
+      "audible_vs_jnd": true
+    }
+  },
+  "aubrey_arithmetic": {
+    "nodal_period_years": 18.61335,
+    "three_nodal_periods_years": 55.84,
+    "56_over_3_years": 18.66667,
+    "drift_per_step_years": -0.05332,
+    "repo_value_18_618_error_years": 0.00465
+  }
+}
