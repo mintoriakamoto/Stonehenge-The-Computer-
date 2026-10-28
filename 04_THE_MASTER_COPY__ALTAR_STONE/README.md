@@ -1,5 +1,7 @@
 # 🗿 THE MASTER COPY — ALTAR STONE
 
+> **Evidence status** (see [EVIDENCE.md](../EVIDENCE.md)): Altar Stone origin in the Orcadian Basin, NE Scotland, is from Clarke et al. 2024 (summary only; the mainland Orkney origin is disputed). The "master copy" and "read head" roles are **not supported**: bulk sandstone has near-zero net piezoelectricity, and the trilithon collapse at ~2000 BC is unsourced.
+
 ## THE ANOMALY
 
 | Stone | Source | Distance | Count | Role |

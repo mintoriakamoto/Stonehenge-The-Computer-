@@ -11,6 +11,9 @@ from dataclasses import dataclass
 from typing import List, Dict
 from scipy import stats
 
+
+NODAL_PERIOD_YR = 18.600  # 19 yr is the Metonic cycle, not the nodal cycle
+
 @dataclass
 class KnowledgeDomain:
     name: str
@@ -62,7 +65,7 @@ class KnowledgeDecayModel:
             for name, domain in self.domains.items():
                 loss = self.transfer_loss(domain, fid)
                 current_bits[name] -= loss * 0.1
-            if (2620 - year) % 19 == 0:
+            if (2620 - year) and int((2620 - year) // NODAL_PERIOD_YR) > int((2620 - year - 1) // NODAL_PERIOD_YR):
                 for name in self.domains:
                     if name in ['astronomical_cycles', 'lunar_correction_algo']:
                         current_bits[name] *= 1.1

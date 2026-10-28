@@ -1,5 +1,7 @@
 # 🗿 MATERIALS — THE HARDWARE SPECS
 
+> **Evidence status** (see [EVIDENCE.md](../EVIDENCE.md)): Sarsens from West Woods: Nash et al. 2020 (summary: 49 of 52 in the main group, 3 outliers). Weights and chemistry figures are not checked here. Acoustic and piezoelectric "hardware" roles are **not supported**.
+
 ## SARSENS (50/52 IDENTICAL)
 
 | Property | Value |

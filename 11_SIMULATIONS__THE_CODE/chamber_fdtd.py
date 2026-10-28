@@ -23,8 +23,8 @@ def generate_stonehenge_geometry():
         'aubrey_holes': []
     }
     
-    # Sarsen Circle: 30 uprights at 48.6m diameter
-    R = 24.3  # meters
+    # Sarsen Circle: 30 uprights on a ~30.7 m (100.8 ft) circle; sources give 30-33 m
+    R = 15.36  # meters
     for i in range(30):
         angle = 2 * np.pi * i / 30
         stones['sarsen_circle'].append({
@@ -98,7 +98,7 @@ def generate_stonehenge_geometry():
     # Bluestone Outer Circle: ~60 stones at 15m radius
     for i in range(60):
         angle = 2 * np.pi * i / 60
-        R_outer = 15.0
+        R_outer = 11.5  # ~23 m (75 ft) bluestone circle
         stones['bluestone_outer'].append({
             'id': f'BO{i+1}',
             'type': 'bluestone',
@@ -139,7 +139,7 @@ def generate_stonehenge_geometry():
         'depth': 0.5,
         'material': 'micaceous_sandstone',
         'piezoelectric': True,
-        'd14': 1.4e-12  # C/N
+        'd14': 0.7e-12  # C/N; quartz single-crystal |d14|, upper bound for bulk sandstone
     })
     
     # Heel Stone

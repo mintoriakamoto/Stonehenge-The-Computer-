@@ -1,5 +1,7 @@
 # 🔍 OPEN QUESTIONS — THE BLIND SPOTS
 
+> **Evidence status** (see [EVIDENCE.md](../EVIDENCE.md)): These are questions, not findings. Several assume the machine hypothesis, which is not supported.
+
 ## THE BLIND SPOTS
 
 | Blind Spot | Why We Can't See It |
@@ -44,7 +46,7 @@
 - Chalk dust → trigeminal stimulation → alertness?
 
 ### 3. Vestibular-Proprioceptive Integration
-- Walking the Avenue (2.5km) → path integration + vestibular priming?
+- Walking the Avenue (2.8 km) → path integration + vestibular priming?
 - Standing in horseshoe → postural sway → hippocampal place cells?
 - Chanting posture → vestibular gain?
 

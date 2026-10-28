@@ -68,7 +68,7 @@ class CompleteSimulation:
         # 1.7-gen half-life = 42.5 yr
         # Start: ~50 initiates at peak
         t = 2620 - year_bc
-        pool = 50 * np.exp(-t / 42.5)
+        pool = 50 * np.exp(-t * np.log(2) / 42.5)
         return max(0, int(pool))
     
     def bluestone_count(self, year_bc: int) -> int:

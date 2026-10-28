@@ -1,5 +1,7 @@
 # 🧠 KNOWLEDGE IS POWER — THE AUBREY 56 REGISTER FILE
 
+> **Evidence status** (see [EVIDENCE.md](../EVIDENCE.md)): 56 ≈ 3 × 18.600 yr (0.36%) is true arithmetic. Use of the holes as a register or error-correcting code is **not supported**: the holes probably held bluestones (Darvill et al. 2012; Parker Pearson 2009). The code parameters below are constructed, not derived from data.
+
 ## THE REGISTER ARCHITECTURE
 
 | Parameter | Value | Meaning |

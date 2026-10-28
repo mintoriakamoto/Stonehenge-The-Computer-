@@ -1,5 +1,7 @@
 # ⚡ THE HEART BEATS — DURRINGTON WALLS = THE PSU
 
+> **Evidence status** (see [EVIDENCE.md](../EVIDENCE.md)): Durrington Walls feasting is source-checked: several thousand people, ~90% pig bones, midwinter slaughter peak, animals from across Britain (Craig et al.; Madgwick et al. 2019). The "PSU", "battery" and "bus bar" terms are **analogies**, not mechanisms: food energy fed people, not stones. The 4,000+ figure is not checked.
+
 ## THE PSU ANALOGY
 
 | What It Looked Like | What It Actually Was |
@@ -77,6 +79,6 @@ SUN → GRASS → PIG (pan-British) → FEAST (Durrington) → WORKER CALORIES
 | Group | Size | Acoustic Access | Knowledge Role |
 |-------|------|-----------------|----------------|
 | **Builders (Durrington)** | **4,000+** | **ZERO** (5 dB shadow, 2.5 km) | **Labor only** |
-| **Initiates (Horseshoe)** | **<50** | **FULL** (100% intelligibility) | **Knowledge receivers** |
+| **Initiates (Horseshoe)** | **<50** | **FULL** (~90% syllable intelligibility (Cox 2020, D50)) | **Knowledge receivers** |
 
 **Physics, not elitism. Chamber capacity ≈ 50 for phase-locked transfer.**

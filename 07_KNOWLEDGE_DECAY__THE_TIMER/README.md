@@ -1,5 +1,7 @@
 # ⏳ KNOWLEDGE DECAY — THE TIMER
 
+> **Evidence status** (see [EVIDENCE.md](../EVIDENCE.md)): The decay rates and half-lives below are **typed assumptions**, not measurements. The "1.7-generation half-life" is a constant (42.5 yr) in the code, and the original code computed a 29.5 yr half-life from it (fixed in PR #4).
+
 ## THE 1.7-GENERATION HALF-LIFE (THE MAGIC NUMBER)
 
 | Domain | Substrate | Decay Rate (yr⁻¹) | Half-Life (gens) | Half-Life (years) |
@@ -92,7 +94,7 @@ OPERATOR: The Last
 | Group | Size | Acoustic Access | Knowledge Role |
 |-------|------|-----------------|----------------|
 | Builders (Durrington) | 4,000+ | **ZERO** (5 dB shadow, 2.5 km) | **Labor only** |
-| Initiates (Horseshoe) | <50 | **FULL** (100% intelligibility) | **Knowledge receivers** |
+| Initiates (Horseshoe) | <50 | **FULL** (~90% syllable intelligibility (Cox 2020, D50)) | **Knowledge receivers** |
 
 **Physics, not elitism. Chamber capacity ≈ 50 for phase-locked transfer.**
 

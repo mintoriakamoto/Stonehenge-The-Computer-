@@ -1,3 +1,4 @@
+import os
 """
 COMPLETE STONEHENGE SYSTEM SIMULATION
 Runs entire system trajectory 3000-1500 BC with existing data.
@@ -15,7 +16,7 @@ class StonehengeSimulation:
         
     def simulate_chronology(self):
         stages = {
-            'stage_1': {'start': 2950, 'end': 2900, 'event': 'Aubrey 56 + cremations'},
+            'stage_1': {'start': 3000, 'end': 2620, 'event': 'Aubrey 56 + cremations'},
             'stage_2': {'start': 2620, 'end': 2480, 'event': 'Trilithons + Sarsen + Double Bluestone (PEAK)'},
             'stage_3': {'start': 2480, 'end': 2280, 'event': 'Bluestonehenge -> Central Circle + Avenue'},
             'stage_4': {'start': 2280, 'end': 2020, 'event': 'Bluestone Oval + Outer Circle (MAX DENSITY)'},
@@ -26,7 +27,7 @@ class StonehengeSimulation:
     
     def simulate_acoustic_trajectory(self):
         """T30 trajectory based on Cox 2020 config sweep + settling model"""
-        tau = 42.5  # 1.7 generations * 25 years = 42.5 years (acoustic half-life)
+        tau = 42.5 / np.log(2)  # e-folding time for a 42.5 yr (1.7 gen) half-life
         
         t30_trajectory = []
         for year in self.years:
@@ -41,7 +42,7 @@ class StonehengeSimulation:
             else:
                 # Exponential decay AFTER Trilithon collapse (year < 2000 BC)
                 # T30 = T30_peak * exp(-(2000 - year) / tau)
-                t30 = 0.61 * np.exp(-(2000 - year) / 42.5)
+                t30 = 0.61 * np.exp(-(2000 - year) / tau)
                 if year < 1650:
                     t30 *= 0.5  # Fragmentation accelerates decay
                 if t30 < 0.30:
@@ -88,7 +89,7 @@ class StonehengeSimulation:
         wear_depths = np.clip(np.random.normal(50, 15, 56), 10, 100)
         
         self.results['altar_stone'] = {
-            'd14_pC_N': 1.4,
+            'd14_pC_N': 0.7,
             'voltage_at_500N_mV': voltage_mV,
             'zones': zones,
             'zone_separation_uV': round(zone_separation_uV, 1),
@@ -218,7 +219,7 @@ class StonehengeSimulation:
         wear_depths = np.clip(np.random.normal(50, 15, 56), 10, 100)
         
         self.results['altar_stone'] = {
-            'd14_pC_N': 1.4,
+            'd14_pC_N': 0.7,
             'voltage_at_500N_mV': voltage_mV,
             'zones': 56,
             'zone_separation_uV': round(voltage_mV / 56 * 1000, 1),
@@ -359,7 +360,7 @@ class StonehengeSimulation:
             'results': self.results,
         }
         
-        with open('/home/xander/stonehenge_repo/data/processed/complete_simulation.json', 'w') as f:
+        with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'data', 'processed', 'complete_simulation.json'), 'w') as f:
             json.dump(output, f, indent=2, default=str)
         
         print("Simulation complete. Results saved.")
