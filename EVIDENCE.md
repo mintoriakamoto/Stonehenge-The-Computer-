@@ -74,7 +74,29 @@ Errors made during this review and later corrected (listed so they can be checke
 - 38,000 bone fragments flagged as unsourced: found in *The Past*
 - sarsens described as "50 of 52": the summary gives 49 of 52 in the main group
 
-## 5. Not reached
+## 5. The dead at Stonehenge
+
+Source-checked:
+
+| Fact | Source |
+|---|---|
+| Cremated remains of up to 58 individuals were excavated in 1919–26 | Snoeck et al. 2018, *Sci. Rep.* |
+| At least 10 of the 25 cremated individuals analysed did not spend their lives near Stonehenge; strontium links point to west Wales | Snoeck et al. 2018 (abstract) |
+| Aubrey Hole 7 reburial: minimum of 27 individuals; 9 male, 14 female, 3 undetermined; mostly adults, some aged 15–24 | Willis et al. 2016, *Antiquity* 90 |
+| Adult woman beside Aubrey Hole 7: 3090–2900 cal BC (SUERC-30410, OxA-27086) | Willis et al. 2016 |
+| Adult in the primary fill of Aubrey Hole 32: 3030–2880 cal BC (OxA-18036) | Willis et al. 2016, citing Parker Pearson et al. 2009 |
+| Ditch dug 2990–2755 cal BC | Marshall et al. 2012, via Willis et al. 2016 |
+| Cremations found in 23 of the 56 Aubrey Holes, clustered around AH14–16; only the south-east half was excavated | Willis et al. 2016 |
+| Cremations were introduced when bluestones stood in the Aubrey Holes and continued until the stones were removed; one deposit (AH24) postdates removal of its stone | Willis et al. 2016 |
+| Hawley (1928): burials "had apparently been brought from a distant place for interment"; his 1920 diary records discarding sieved bone | Willis et al. 2016, quoting Hawley |
+
+Inference (judgment, not proven):
+- From the start, Stonehenge was a burial monument for a selected group: 58 individuals over ~500 years is too few for a general cemetery (~85%).
+- Some of the dead came with, or were brought to, stones from their homeland in west Wales (~65%).
+- Individual stones marked particular groups or lineages (~35%; needs dates and isotopes hole by hole).
+- The Aubrey circle was a register of stored knowledge (~5%; no evidence).
+
+## 6. Not reached
 
 - Marshall et al. 2012, English Heritage radiocarbon report (full lab-code table)
 - Petrie 1880 full text
