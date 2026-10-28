@@ -50,17 +50,17 @@
     "Mount_Pleasant": 0.0
   },
   "eigenvector_centrality": {
-    "Durrington_Walls": 0.506555033891527,
+    "Durrington_Walls": 0.5065550338915272,
     "Marden": 0.5088076501797463,
     "West_Kennet": 0.5161165807060379,
-    "Mount_Pleasant": 0.4670550801329824
+    "Mount_Pleasant": 0.46705508013298236
   },
   "communities": [
     [
       "West_Kennet",
       "Marden",
-      "Mount_Pleasant",
-      "Durrington_Walls"
+      "Durrington_Walls",
+      "Mount_Pleasant"
     ]
   ],
   "modularity": 0.0,

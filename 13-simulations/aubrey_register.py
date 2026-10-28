@@ -29,7 +29,7 @@ class AubreyRegister:
     def __init__(self):
         self.N_HOLES = 56
         self.NODE_STEP = 3
-        self.NODE_PERIOD = 18.618
+        self.NODE_PERIOD = 18.600  # 6793.46 d draconic-node regression
         self.DRIFT_PER_STEP = self.NODE_PERIOD - self.N_HOLES/self.NODE_STEP
         self.LEAP_HOLE_INTERVAL = 6
         self.standstill_count = 0
@@ -160,7 +160,8 @@ class AubreyRegister:
         for year in range(start_year, end_year - 1, -1):
             self.advance_year()
             self.transfer_cycle(year)
-            if (start_year - year) % 19 == 0:
+            elapsed = start_year - year
+            if elapsed and int(elapsed // self.NODE_PERIOD) > int((elapsed - 1) // self.NODE_PERIOD):
                 true_node = (self.markers[Marker.NODE] +
                            int(self.standstill_count * self.DRIFT_PER_STEP * 3 / self.NODE_PERIOD)) % 56
                 self.standstill_event(true_node)

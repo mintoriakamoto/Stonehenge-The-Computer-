@@ -1,45 +1,50 @@
 {
   "total_transfer_cycles": 1101,
-  "standstills_recorded": 58,
+  "standstills_recorded": 59,
   "leap_holes_applied": 9,
-  "engineering_lost": 960,
-  "astronomy_lost": 760,
-  "genealogy_lost": 760,
-  "motor_lost": 960,
+  "engineering_transfers_lost": 960,
+  "astronomy_transfers_lost": 760,
+  "genealogy_transfers_lost": 760,
+  "motor_transfers_lost": 960,
   "drift_history": [
     {
-      "standstill": 54,
-      "predicted": 8,
-      "observed": 8,
-      "error_holes": 0,
-      "leap_applied": true
-    },
-    {
       "standstill": 55,
-      "predicted": 10,
-      "observed": 10,
+      "predicted": 4,
+      "observed": 4,
       "error_holes": 0,
+      "error_years": 0.0,
       "leap_applied": false
     },
     {
       "standstill": 56,
-      "predicted": 11,
-      "observed": 11,
+      "predicted": 2,
+      "observed": 2,
       "error_holes": 0,
+      "error_years": 0.0,
       "leap_applied": false
     },
     {
       "standstill": 57,
-      "predicted": 12,
-      "observed": 12,
+      "predicted": 3,
+      "observed": 3,
       "error_holes": 0,
+      "error_years": 0.0,
       "leap_applied": false
     },
     {
       "standstill": 58,
-      "predicted": 13,
-      "observed": 13,
+      "predicted": 1,
+      "observed": 1,
       "error_holes": 0,
+      "error_years": 0.0,
+      "leap_applied": false
+    },
+    {
+      "standstill": 59,
+      "predicted": 2,
+      "observed": 2,
+      "error_holes": 0,
+      "error_years": 0.0,
       "leap_applied": false
     }
   ],
@@ -47,5 +52,451 @@
     "Sun": 37,
     "Moon": 33,
     "Node": 8
-  }
+  },
+  "knowledge_decay_curve": [
+    {
+      "year": 2620,
+      "fidelity": 1.0
+    },
+    {
+      "year": 2610,
+      "fidelity": 0.9
+    },
+    {
+      "year": 2600,
+      "fidelity": 0.9
+    },
+    {
+      "year": 2590,
+      "fidelity": 0.9
+    },
+    {
+      "year": 2580,
+      "fidelity": 0.9
+    },
+    {
+      "year": 2570,
+      "fidelity": 0.9
+    },
+    {
+      "year": 2560,
+      "fidelity": 0.9
+    },
+    {
+      "year": 2550,
+      "fidelity": 0.9
+    },
+    {
+      "year": 2540,
+      "fidelity": 0.9
+    },
+    {
+      "year": 2530,
+      "fidelity": 0.9
+    },
+    {
+      "year": 2520,
+      "fidelity": 0.9
+    },
+    {
+      "year": 2510,
+      "fidelity": 0.9
+    },
+    {
+      "year": 2500,
+      "fidelity": 0.9
+    },
+    {
+      "year": 2490,
+      "fidelity": 0.9
+    },
+    {
+      "year": 2480,
+      "fidelity": 0.9
+    },
+    {
+      "year": 2470,
+      "fidelity": 0.6
+    },
+    {
+      "year": 2460,
+      "fidelity": 0.6
+    },
+    {
+      "year": 2450,
+      "fidelity": 0.6
+    },
+    {
+      "year": 2440,
+      "fidelity": 0.6
+    },
+    {
+      "year": 2430,
+      "fidelity": 0.6
+    },
+    {
+      "year": 2420,
+      "fidelity": 0.6
+    },
+    {
+      "year": 2410,
+      "fidelity": 0.6
+    },
+    {
+      "year": 2400,
+      "fidelity": 0.6
+    },
+    {
+      "year": 2390,
+      "fidelity": 0.6
+    },
+    {
+      "year": 2380,
+      "fidelity": 0.6
+    },
+    {
+      "year": 2370,
+      "fidelity": 0.6
+    },
+    {
+      "year": 2360,
+      "fidelity": 0.6
+    },
+    {
+      "year": 2350,
+      "fidelity": 0.6
+    },
+    {
+      "year": 2340,
+      "fidelity": 0.6
+    },
+    {
+      "year": 2330,
+      "fidelity": 0.6
+    },
+    {
+      "year": 2320,
+      "fidelity": 0.6
+    },
+    {
+      "year": 2310,
+      "fidelity": 0.6
+    },
+    {
+      "year": 2300,
+      "fidelity": 0.6
+    },
+    {
+      "year": 2290,
+      "fidelity": 0.6
+    },
+    {
+      "year": 2280,
+      "fidelity": 0.6
+    },
+    {
+      "year": 2270,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2260,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2250,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2240,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2230,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2220,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2210,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2200,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2190,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2180,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2170,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2160,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2150,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2140,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2130,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2120,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2110,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2100,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2090,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2080,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2070,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2060,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2050,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2040,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2030,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2020,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2010,
+      "fidelity": 0.2
+    },
+    {
+      "year": 2000,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1990,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1980,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1970,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1960,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1950,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1940,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1930,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1920,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1910,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1900,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1890,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1880,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1870,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1860,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1850,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1840,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1830,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1820,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1810,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1800,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1790,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1780,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1770,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1760,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1750,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1740,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1730,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1720,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1710,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1700,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1690,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1680,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1670,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1660,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1650,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1640,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1630,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1620,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1610,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1600,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1590,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1580,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1570,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1560,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1550,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1540,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1530,
+      "fidelity": 0.2
+    },
+    {
+      "year": 1520,
+      "fidelity": 0.2
+    }
+  ]
 }

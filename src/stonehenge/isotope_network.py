@@ -7,10 +7,11 @@ class Site:
     sr_range: tuple; s34_range: tuple; o18_range: tuple; c13_range: tuple; n15_range: tuple
 
 SITES = {
-    'Durrington_Walls': Site('Durrington Walls', 50, (0.7080,0.7172), (-5,15), (-7,-3), (-22,-18), (6,10)),
-    'Marden': Site('Marden', 30, (0.7086,0.7166), (-5,10), (-7,-4), (-22,-19), (5,9)),
-    'West_Kennet': Site('West Kennet', 25, (0.7082,0.7133), (-3,12), (-6,-3), (-21,-18), (6,10)),
-    'Mount_Pleasant': Site('Mount Pleasant', 26, (0.7082,0.7113), (-2,8), (-5,-2), (-20,-17), (7,11)),
+    # Madgwick et al. 2019, Sci. Adv., Table 1 (PMC6415963): per-site n and min-max ranges.
+    'Durrington_Walls': Site('Durrington Walls', 89, (0.7080, 0.7172), (-1.6, 19.6), (23.6, 27.7), (-21.3, -19.7), (5.2, 8.0)),
+    'Marden': Site('Marden', 8, (0.7086, 0.7166), (6.5, 13.0), (23.2, 27.4), (-22.0, -20.3), (5.1, 6.8)),
+    'West_Kennet': Site('West Kennet Palisades', 16, (0.7082, 0.7133), (6.9, 17.5), (24.4, 27.6), (-22.4, -20.6), (3.4, 7.2)),
+    'Mount_Pleasant': Site('Mount Pleasant', 18, (0.7082, 0.7113), (2.8, 18.8), (23.2, 28.9), (-23.1, -20.9), (4.5, 9.1)),
 }
 
 def range_overlap(r1, r2):
@@ -30,21 +31,17 @@ def build_network(threshold=0.15):
             overlaps = {iso_names[i]: range_overlap(getattr(SITES[n1], iso_keys[i]), getattr(SITES[n2], iso_keys[i])) for i in range(5)}
             comp = sum(overlaps[k]*weights[k] for k in weights)
             if comp > threshold:
-                G.add_edge(n1, n2, weight=comp, **overlaps)
+                G.add_edge(n1, n2, weight=comp, distance=1.0/comp, **overlaps)
     return G
-
-def range_overlap(r1, r2):
-    lo, hi = max(r1[0],r2[0]), min(r1[1],r2[1])
-    return 0 if lo>=hi else (hi-lo)/(max(r1[1],r2[1])-min(r1[0],r2[0]))
 
 def analyze(G):
     return {
         'degree': nx.degree_centrality(G),
-        'betweenness': nx.betweenness_centrality(G, weight='weight'),
+        'betweenness': nx.betweenness_centrality(G, weight='distance'),
         'eigenvector': nx.eigenvector_centrality_numpy(G, weight='weight'),
         'communities': [list(c) for c in nx.community.greedy_modularity_communities(G, weight='weight')],
         'modularity': nx.community.modularity(G, nx.community.greedy_modularity_communities(G, weight='weight'), weight='weight'),
-        'avg_path': nx.average_shortest_path_length(G, weight='weight'),
+        'avg_path': nx.average_shortest_path_length(G, weight='distance'),
         'edges': [(u,v,d['weight']) for u,v,d in G.edges(data=True)]
     }
 
@@ -66,11 +63,11 @@ def simulate_feasting(G, years=100):
 
 if __name__ == "__main__":
     G = build_network()
-    analysis = {'degree': nx.degree_centrality(G), 'betweenness': nx.betweenness_centrality(G, weight='weight'),
+    analysis = {'degree': nx.degree_centrality(G), 'betweenness': nx.betweenness_centrality(G, weight='distance'),
                 'eigenvector': nx.eigenvector_centrality_numpy(G, weight='weight'),
                 'communities': [list(c) for c in nx.community.greedy_modularity_communities(G, weight='weight')],
                 'modularity': nx.community.modularity(G, nx.community.greedy_modularity_communities(G, weight='weight'), weight='weight'),
-                'avg_path': nx.average_shortest_path_length(G, weight='weight'),
+                'avg_path': nx.average_shortest_path_length(G, weight='distance'),
                 'edges': [(u,v,d['weight']) for u,v,d in G.edges(data=True)]}
     diff = simulate_feasting(G, 100)
     out = {'network': analysis, 'diffusion': diff}

@@ -1,6 +1,9 @@
 import numpy as np, json
 from dataclasses import dataclass
 
+
+NODAL_PERIOD_YR = 18.600  # 19 yr is the Metonic cycle, not the nodal cycle
+
 @dataclass
 class KnowledgeDomain:
     name: str; initial_bits: float; storage_substrate: str
@@ -32,7 +35,7 @@ class KnowledgeDecayModel:
                 current_bits[name] = domain.initial_bits * np.exp(-domain.decay_rate * elapsed)
                 loss = domain.initial_bits * (1 - domain.transfer_efficiency * fid)
                 current_bits[name] -= loss * 0.1
-            if (2620 - year) % 19 == 0:
+            if (2620 - year) and int((2620 - year) // NODAL_PERIOD_YR) > int((2620 - year - 1) // NODAL_PERIOD_YR):
                 for name in ['astronomical_cycles', 'lunar_correction_algo']:
                     current_bits[name] *= 1.1
             results['years'].append(year)
