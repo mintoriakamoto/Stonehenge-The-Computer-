@@ -1,5 +1,7 @@
 # 🏗️ SYSTEM ARCHITECTURE — THE FIVE-LAYER STACK
 
+> **Evidence status** (see [EVIDENCE.md](../EVIDENCE.md)): Only the calendrical layer (solstitial axis) and the logistical layer (feasting) are supported by sources checked. The cosmological layer is not checked; the acoustic-neural and knowledge layers are **not supported**.
+
 ## THE STACK
 
 ```

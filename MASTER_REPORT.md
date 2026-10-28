@@ -1,5 +1,7 @@
 # Stonehenge Complete Systems Analysis
 
+> **Evidence status** (see [EVIDENCE.md](EVIDENCE.md)): this document presents the machine hypothesis as findings. Checked against sources, the knowledge-transfer, neurostimulation, piezoelectric and metrology claims are **not supported**, and several numbers here (18.618 yr, the 1.7-generation half-life, "100% vs 33%" intelligibility, a single construction campaign) are wrong or unsourced. The verified record is in EVIDENCE.md and 14-verification/README.md.
+
 Stonehenge was a neurostimulation device for high-fidelity intergenerational knowledge transfer using acoustic resonance (114Hz), vestibular stimulation (8Hz), and circadian timing to encode knowledge into initiates via phase-locked neural entrainment.
 
 ## Key Evidence

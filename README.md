@@ -1,5 +1,9 @@
 # STONEHENGE — COMPLETE SYSTEMS ANALYSIS
 
+> Evidence register: [EVIDENCE.md](EVIDENCE.md) · Verification matrix: [14-verification/README.md](14-verification/README.md)
+
+> **Evidence status** (see [EVIDENCE.md](EVIDENCE.md)): The core hypothesis below (knowledge-transfer / neurostimulation machine) is **not supported** by any source checked. Supported: five construction stages 3000–1520 cal BC, a solstitial axis, stones from West Woods, Wales and NE Scotland, feasts at Durrington Walls, and a modest acoustic effect (Cox et al. 2020). The 18.618-yr period below is wrong; the nodal period is 18.600 yr.
+
 ## What This Is
 A complete reverse-engineering of Stonehenge as a multi-functional instrument: astronomical clock, acoustic exclusion chamber, neurostimulation device, knowledge-transfer machine, and pan-British social mobilization system.
 

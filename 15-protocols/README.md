@@ -1,5 +1,7 @@
 # 📋 PROTOCOLS — HOW TO MEASURE IT (CONTINUED)
 
+> **Evidence status** (see [EVIDENCE.md](../EVIDENCE.md)): No protocol here has a tested basis. Steps that involve human exposure must not be run.
+
 ## VISIT PROTOCOL (WINTER SOLSTICE) — CONTINUED
 
 ### STEP-BY-STEP

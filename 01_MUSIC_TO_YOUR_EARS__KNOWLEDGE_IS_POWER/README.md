@@ -1,4 +1,6 @@
 # 🎵 MUSIC TO YOUR EARS — KNOWLEDGE IS POWER
+
+> **Evidence status** (see [EVIDENCE.md](../EVIDENCE.md)): T30 0.64 s and +4.3 dB are source-checked (Cox et al. 2020, 1:12 model). The 8.1 Hz and 114 Hz modes, the neural pathways, and "100% intelligibility" are **not supported**: no measurement exists, and Cox reports ~90% syllable intelligibility and no resonances.
 ## The Acoustic Neural Coupling Chain
 
 ### THE CHAMBER SPEAKS — YOUR BODY LISTENS

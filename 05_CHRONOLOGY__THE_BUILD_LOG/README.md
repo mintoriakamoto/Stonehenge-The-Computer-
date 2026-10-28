@@ -1,5 +1,7 @@
 # 📜 THE BUILD LOG — 5-STAGE BAYESIAN MODEL
 
+> **Evidence status** (see [EVIDENCE.md](../EVIDENCE.md)): Stage dates are source-checked against Darvill et al. 2012, Table 1. "62 dates" is from the abstract (secondary). The cremation range 3080–2890 BC and the "PEAK"/"MAX" labels are not from the source.
+
 ## THE 5 STAGES (DARVILL ET AL. 2012 — 62 ¹⁴C DATES, OXCAL 4.1)
 
 | Stage | Date (95% cal BC) | Key Construction |

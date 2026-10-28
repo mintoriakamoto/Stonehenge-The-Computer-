@@ -1,5 +1,7 @@
 # 🌍 THE GRAND PLAN — LANDSCAPE AS MACHINE
 
+> **Evidence status** (see [EVIDENCE.md](../EVIDENCE.md)): The Winter Hexagon correspondences (Burley 2016) are **not checked**. The Avenue to the River Avon is 2.8 km (Darvill et al. 2012).
+
 ## THE WINTER HEXAGON TRANSLOCATION (BURLEY 2016 — UNVERIFIED)
 
 | Landscape Feature | Stellar Correspondence | Precision |

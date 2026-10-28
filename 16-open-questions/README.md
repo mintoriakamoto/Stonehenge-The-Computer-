@@ -1,5 +1,7 @@
 # 🔍 OPEN QUESTIONS — THE BLIND SPOTS
 
+> **Evidence status** (see [EVIDENCE.md](../EVIDENCE.md)): These are questions, not findings. Several assume the machine hypothesis, which is not supported.
+
 ## THE BLIND SPOTS
 
 | Blind Spot | Why We Can't See It |

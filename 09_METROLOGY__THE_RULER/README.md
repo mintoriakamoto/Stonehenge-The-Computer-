@@ -1,5 +1,7 @@
 # 📏 METROLOGY — THE SACRED ROD
 
+> **Evidence status** (see [EVIDENCE.md](../EVIDENCE.md)): The 0.006% match between Heath's rod and polar radius / 6×10⁶ is true arithmetic. That it shows designed metrology is **not supported**: the Bayes factor runs from 1.28 to 10²⁷⁰ depending on the chosen σ, and the repo's own 100.8 ft / 30 rod (1.0241 m) differs from Heath's by 3.4%.
+
 ## THE CLAIM
 
 **Sacred Rod = 1.0593 m = Polar Radius / 6,000,000 (0.006% match)**

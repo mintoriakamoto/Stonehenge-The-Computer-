@@ -1,5 +1,7 @@
 # 💻 SIMULATIONS — EXECUTABLE MODELS
 
+> **Evidence status** (see [EVIDENCE.md](../EVIDENCE.md)): The simulations take hand-entered constants as inputs, so their outputs are not evidence. Only the isotope network (Madgwick data) and the sacred-rod arithmetic use measured inputs. The FDTD solver has never been run on this geometry.
+
 ## FILES
 
 | File | Purpose | Status |
