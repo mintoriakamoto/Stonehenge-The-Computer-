@@ -77,6 +77,6 @@ SUN → GRASS → PIG (pan-British) → FEAST (Durrington) → WORKER CALORIES
 | Group | Size | Acoustic Access | Knowledge Role |
 |-------|------|-----------------|----------------|
 | **Builders (Durrington)** | **4,000+** | **ZERO** (5 dB shadow, 2.5 km) | **Labor only** |
-| **Initiates (Horseshoe)** | **<50** | **FULL** (100% intelligibility) | **Knowledge receivers** |
+| **Initiates (Horseshoe)** | **<50** | **FULL** (~90% syllable intelligibility (Cox 2020, D50)) | **Knowledge receivers** |
 
 **Physics, not elitism. Chamber capacity ≈ 50 for phase-locked transfer.**

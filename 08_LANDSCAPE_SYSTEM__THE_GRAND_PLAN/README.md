@@ -39,7 +39,7 @@
 |---------|--------|----------|
 | Straight (NE) | 530 m | Solstitial axis — processional sightline |
 | Curved (Stonehenge Bottom) | ~1 km | Terrain following |
-| River Avon terminus | 2.5 km total | Bluestonehenge staging post |
+| River Avon terminus | 2.8 km (Darvill et al. 2012) | Bluestonehenge staging post |
 
 **Cutoff frequency**: c / 2W = 343 / 40 = **8.6 Hz** — **matches chamber 8.1 Hz mode**.
 

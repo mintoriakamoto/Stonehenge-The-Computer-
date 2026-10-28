@@ -16,7 +16,7 @@ class StonehengeSimulation:
         
     def simulate_chronology(self):
         stages = {
-            'stage_1': {'start': 2950, 'end': 2900, 'event': 'Aubrey 56 + cremations'},
+            'stage_1': {'start': 3000, 'end': 2620, 'event': 'Aubrey 56 + cremations'},
             'stage_2': {'start': 2620, 'end': 2480, 'event': 'Trilithons + Sarsen + Double Bluestone (PEAK)'},
             'stage_3': {'start': 2480, 'end': 2280, 'event': 'Bluestonehenge -> Central Circle + Avenue'},
             'stage_4': {'start': 2280, 'end': 2020, 'event': 'Bluestone Oval + Outer Circle (MAX DENSITY)'},

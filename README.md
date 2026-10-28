@@ -17,7 +17,7 @@ Stonehenge was a **knowledge-transfer machine**, not a monument. The acoustic ch
 | Parameter | Value | Significance |
 |-----------|-------|-------------|
 | T30 (500-1000 Hz) | 0.64 ± 0.03 s | Reverberation for memory encoding |
-| Speech gain | +4.3 ± 0.9 dB | 100% intelligibility facing away |
+| Speech gain | +4.3 ± 0.9 dB | ~90% syllable intelligibility (Cox 2020, D50) facing away |
 | Outside attenuation | 5 dB | Acoustic exclusion |
 | Modal 114 Hz | Chest resonance | Cardiac entrainment → HRV coherence |
 | Modal 8.1 Hz | Infrasound | Vestibular → Hippocampal theta |

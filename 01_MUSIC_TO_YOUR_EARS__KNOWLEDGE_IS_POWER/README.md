@@ -32,7 +32,7 @@ RESULT: Phase-locked knowledge transfer
 | Metric | Value | Significance |
 |--------|-------|--------------|
 | **T₃₀ (500-1000 Hz)** | **0.64 ± 0.03 s** | Memory buffer = "Stonehenge second" |
-| **Speech gain** | **+4.3 ± 0.9 dB** | 100% intelligibility facing away |
+| **Speech gain** | **+4.3 ± 0.9 dB** | ~90% syllable intelligibility (Cox 2020, D50) facing away |
 | **Outside attenuation** | **5 dB** | Acoustic exclusion field |
 | **Modal 8.1 Hz** | Vestibular drive | Theta gate |
 | **Modal 114 Hz** | Chest resonance | HRV coherence 0.1 Hz |

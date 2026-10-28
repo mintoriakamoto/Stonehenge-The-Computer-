@@ -13,9 +13,9 @@
 | 7 | Station Stones = lunar standstill | Ruggles 1997; EH 2024-25 | 1 | VERIFIED |
 | 8 | Aubrey 56 = 3×nodal cycle | Hawkins 1965; Hoyle 1977 | 1 | VERIFIED |
 | 9 | Winter Hexagon translocation | Burley 2016 | 3 | UNVERIFIED |
-| 10 | T₃₀=0.64s, +4.3dB, 5dB exclusion | Cox 2020 (1:12 model) | 1 | VERIFIED |
+| 10 | T₃₀=0.64s, +4.3dB (1:12 model). "5dB exclusion" is not in the paper | Cox 2020 | 1 | PARTLY VERIFIED |
 | 11 | Peak acoustic at Stage 2/3 | Cox Config (ii)→(iii) | 1 | VERIFIED |
-| 12 | 100% inside vs 33% outside | Cox §3.2 | 1 | VERIFIED |
+| 12 | ~90% syllable intelligibility inside (D50 mean 0.77, 28 of 29 positions); "100% vs 33%" is not in the paper. Authors: "improbable that sound was a primary driver in the design" | Cox 2020 §3.2, §4 | 1 | CLAIM NOT IN SOURCE |
 | 13 | Bluestone rearrangements inaudible | Cox Table 3 | 1 | VERIFIED |
 | 14 | Bluestone = ringing rock | Darvill & Wainwright 2014 | 1 | VERIFIED |
 | 15 | Durrington = 4,000 seasonal | Parker Pearson 2019 | 1 | VERIFIED |

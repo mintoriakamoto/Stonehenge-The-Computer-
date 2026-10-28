@@ -28,7 +28,7 @@ Stage 2/3: T30=0.64s, +4.3 dB speech gain, 5 dB exclusion
 157 stones = MAXIMUM SCATTERING SURFACE
 Bluestone material: dolerite (v = 5,500–6,500 m/s, Q = 1000–5000)
 BUT: erected in sockets = ringing KILLED; chamber acoustics REPLACED it
-Inside = 100% intelligibility; Outside = acoustic shadow (EXCLUSION)
+Inside = ~90% syllable intelligibility (Cox 2020, D50); Outside = acoustic shadow (EXCLUSION)
 
 L1: MATERIAL/QUANTUM LAYER (Atomic → macroscopic physics chain)
 Electronic resonances (NIST lines): invariant, universal — NOT ringing
@@ -103,7 +103,7 @@ OPERATOR: The Last
 | Group | Size | Acoustic Access | Role |
 |-------|------|-----------------|------|
 | Builders (Durrington) | 4,000+ | ZERO (5 dB shadow, 2.5 km) | Labor only |
-| Initiates (Horseshoe) | <50 | FULL (100% intelligibility) | Knowledge receivers |
+| Initiates (Horseshoe) | <50 | FULL (~90% syllable intelligibility (Cox 2020, D50)) | Knowledge receivers |
 
 **Physics, not elitism. Chamber capacity ~50 for phase-locked transfer.**
 

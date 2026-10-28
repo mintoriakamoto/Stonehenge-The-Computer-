@@ -1,7 +1,7 @@
 {
   "metadata": {
     "simulation": "Stonehenge Complete System Trajectory",
-    "date": "2026-10-28T14:15:20.499563",
+    "date": "2026-10-28T14:21:59.111798",
     "years_simulated": [
       3000,
       1500
@@ -11,8 +11,8 @@
   "results": {
     "chronology": {
       "stage_1": {
-        "start": 2950,
-        "end": 2900,
+        "start": 3000,
+        "end": 2620,
         "event": "Aubrey 56 + cremations"
       },
       "stage_2": {

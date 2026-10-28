@@ -4,10 +4,10 @@
 
 | Stage | Date (95% cal BC) | Key Construction |
 |-------|-------------------|------------------|
-| **1** | 2950–2900 | Bank/ditch (110m Ø) + 56 Aubrey Holes (bluestone sockets) + cremations (3080-2890 BC) |
+| **1** | 3000–2620 (ditch 3000–2920) | Bank/ditch (110m Ø) + 56 Aubrey Holes (bluestone sockets) + cremations (3080-2890 BC) |
 | **2** | 2620–2480 | Trilithons + Sarsen Circle + **Double Bluestone Circle (Q/R)** — **PEAK** |
 | **3** | 2480–2280 | Bluestonehenge → Central Circle + Avenue built |
-| **4** | 2280–2020 | Bluestone Oval + Outer Circle (MAX STONE DENSITY) |
+| **4** | 2280–2020 | Bluestone Oval (c. 25) + Outer Circle (40–60) (MAX STONE DENSITY) |
 | **5** | 2020–1520 | Y/Z Holes (empty), rock art, bluestone fragmentation |
 
 ---

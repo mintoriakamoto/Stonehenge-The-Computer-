@@ -44,7 +44,7 @@
 - Chalk dust → trigeminal stimulation → alertness?
 
 ### 3. Vestibular-Proprioceptive Integration
-- Walking the Avenue (2.5km) → path integration + vestibular priming?
+- Walking the Avenue (2.8 km) → path integration + vestibular priming?
 - Standing in horseshoe → postural sway → hippocampal place cells?
 - Chanting posture → vestibular gain?
 
