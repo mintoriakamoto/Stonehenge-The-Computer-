@@ -9,7 +9,7 @@
 | 1 | 5-stage Bayesian chronology | Darvill 2012 (62 ¹⁴C) | 1 | VERIFIED |
 | 2 | Aubrey Holes = bluestone sockets | Parker Pearson 2009 | 1 | VERIFIED |
 | 3 | Waun Mawn = proto-Stonehenge | Parker Pearson 2021 (OSL) | 1 | VERIFIED |
-| 4 | Sarsens = West Woods (50/52) | Nash 2020 (PXRF+ICP-MS) | 1 | VERIFIED |
+| 4 | Sarsens = West Woods (49/52 (3 outliers: upright 26, lintels 156, 160)) | Nash 2020 (PXRF+ICP-MS) | 1 | VERIFIED |
 | 5 | Quarry shutdown = Stage 1 cremation | Parker Pearson 2015/2019 | 1 | VERIFIED |
 | 6 | Solstitial axis (midwinter primary) | Ruggles 1997; EH 2024 | 1 | VERIFIED |
 | 7 | Station Stones = lunar standstill | Ruggles 1997; EH 2024-25 | 1 | VERIFIED |
@@ -73,7 +73,7 @@ A Neolithic polity (c. 2620 BC) built a multi-functional instrument encoding geo
 ## SOURCES (TIER 1)
 - Darvill et al. 2012 Antiquity 86 — 62 ¹⁴C dates, Bayesian
 - Cox et al. 2020 JAS 122:105218 — 1:12 scale model, 29 pairs
-- Nash et al. 2020 Sci Adv — 50/52 sarsens = West Woods
+- Nash et al. 2020 Sci Adv — 49/52 (3 outliers: upright 26, lintels 156, 160) sarsens = West Woods
 - Clarke et al. 2024 Nature — Altar Stone = Orkney
 - Madgwick et al. 2019 Sci Adv — 131 pigs, 5 isotopes, 4 sites
 - Parker Pearson 2015/2019/2021 — Quarries, Waun Mawn, logistics

@@ -19,7 +19,7 @@ Durrington Southern Circle = midwinter SUNRISE (opposite Stonehenge)
 L3: POLITICAL/LOGISTICAL LAYER (Pan-British feasting network)
 131 pigs, 5 isotopes = animals from Wales, N England, NE Scotland, Cornwall
 4,000+ seasonal workforce housed at Durrington Walls
-Sarsens: West Woods (25 km) → 50/52 stones same chemistry
+Sarsens: West Woods (25 km) → 49/52 (3 outliers: upright 26, lintels 156, 160) stones same chemistry
 Bluestones: Preseli (240 km) → Waun Mawn circle dismantled & moved
 Feasting economy: 38,000+ bones, midwinter peak
 

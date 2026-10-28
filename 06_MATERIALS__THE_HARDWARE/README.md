@@ -1,6 +1,6 @@
 # 🗿 MATERIALS — THE HARDWARE SPECS
 
-## SARSENS (50/52 IDENTICAL)
+## SARSENS (49 of 52 share one chemistry)
 
 | Property | Value |
 |----------|-------|
@@ -10,7 +10,7 @@
 | Weight | 25-50 tonnes each |
 | Petrology | Quartz arenite (silcrete) |
 
-**NASH ET AL. 2020 (PXRF 260 + ICP-MS)**: 50/52 share identical chemistry. Heel Stone (96) matches West Woods.
+**NASH ET AL. 2020 (PXRF 260 + ICP-MS)**: 49 of 52 share one chemistry; 3 outliers (upright 26, lintels 156, 160). Heel Stone (96) matches West Woods.
 
 ---
 
@@ -83,7 +83,7 @@
 ---
 
 ## SOURCES
-- Nash et al. 2020 *Sci Adv* — Sarsen provenance (50/52 West Woods)
+- Nash et al. 2020 *Sci Adv* — Sarsen provenance (49/52 (3 outliers: upright 26, lintels 156, 160) West Woods)
 - Parker Pearson et al. 2015, 2019, 2021 *Antiquity* — Bluestone quarries
 - Clarke et al. 2024 *Nature* — Altar Stone Orkney origin
 - Darvill & Wainwright 2014 *Brit Archaeol* — Ringing rocks

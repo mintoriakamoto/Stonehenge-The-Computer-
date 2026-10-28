@@ -23,7 +23,7 @@
 | Precision | 0.001 m (1 mm) |
 | Target window | 0.0002 m (0.2 mm) |
 | **p-value (random)** | **0.02%** |
-| **Bayes Factor (H1/H0)** | **513.5** |
+| **Bayes Factor (H1/H0)** | **513.5 (σ = 0.01 m; σ-dependent, not evidence)** |
 
 **DECISIVE EVIDENCE FOR PALEO-GEODESY.**
 
@@ -76,6 +76,6 @@ python3 13-simulations/sacred_rod_audit.py
 # Output:
 # Polar/6M: 1.059459 m
 # Heath rod: 1.059393 m (0.066 mm diff)
-# Bayes Factor: 513.5
+# Bayes Factor: 513.5 (σ = 0.01 m; σ-dependent, not evidence)
 # Decision: Measure Stone 156 to ±0.5mm
 ```

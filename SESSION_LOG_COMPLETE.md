@@ -61,7 +61,7 @@ Acoustic T30 peak: 0.64s
 Altar Stone voltage @ 500N: 0.73 mV
 Zone separation: 13.0 μV
 SNR: 6.5
-Sacred Rod Bayes Factor: 513.5
+Sacred Rod Bayes Factor: 513.5 (σ = 0.01 m; σ-dependent, not evidence)
 Predicted fragmentation: 1955 BC
 Observed fragmentation: 1650 BC
 Match: False
@@ -131,7 +131,7 @@ Heath rod: 1.059393 m
 Stonehenge rod (100.8ft/30): 1.024128 m
 Heath vs Polar/6M diff: 0.065 mm
 Stonehenge vs Polar/6M diff: 35.3 mm
-Bayes factor (H1=Polar/6M vs H0=Stonehenge): 513.5
+Bayes factor (H1=Polar/6M vs H0=Stonehenge): 513.5 (σ = 0.01 m; σ-dependent, not evidence)
 p(random match): 0.000200
 ```
 
@@ -201,7 +201,7 @@ Generated files:
 | `aubrey_register_report.json` | 953 B | 1101 cycles, 58 standstills |
 | `knowledge_decay_analysis.json` | 182 KB | Rate-distortion curves |
 | `isotope_network_analysis.json` | 13 KB | 4-site network |
-| `sacred_rod_audit.json` | 356 B | BF=513.5 |
+| `sacred_rod_audit.json` | 356 B | BF=513.5 (σ = 0.01 m; σ-dependent, not evidence) |
 | `altar_stone_test_matrix.json` | 2.7 KB | 7 falsifiable predictions |
 | `stonehenge_geometry.json` | 27 KB | Stone coordinates |
 | `isotope_network_analysis.json` | 13 KB | Network data |
@@ -303,7 +303,7 @@ Generated files:
 | Claim | Status | Tier | Source |
 |-------|--------|------|--------|
 | 5-stage Bayesian chronology | VERIFIED | 1 | Darvill 2012 Antiquity 86 |
-| 50/52 sarsens = West Woods | VERIFIED | 1 | Nash 2020 Sci Adv |
+| 49/52 (3 outliers: upright 26, lintels 156, 160) sarsens = West Woods | VERIFIED | 1 | Nash 2020 Sci Adv |
 | Bluestones = Preseli | VERIFIED | 1 | Parker Pearson 2015/2019 |
 | Aubrey 56 = bluestone sockets | VERIFIED | 1 | Hawley 1921 + 2008 |
 | Waun Mawn = proto-Stonehenge | VERIFIED | 1 | Parker Pearson 2021 |
@@ -325,7 +325,7 @@ Generated files:
 # 1. STONE 156 LINTEL WIDTH (±0.5mm)
 #    Target: 1.059459 m (Polar Radius / 6,000,000)
 #    Instrument: Leica AT960 (±0.02mm)
-#    Pass: 1.0594 ± 0.0005m → Paleo-geodesy CONFIRMED (BF=513.5)
+#    Pass: 1.0594 ± 0.0005m → Paleo-geodesy CONFIRMED (BF=513.5 (σ = 0.01 m; σ-dependent, not evidence))
 
 # 2. ALTAR STONE PIEZO MAP (500N × 56 zones)
 #    Target: 56 peaks >5μV separation at 500N

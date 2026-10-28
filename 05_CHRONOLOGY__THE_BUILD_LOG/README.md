@@ -52,7 +52,7 @@
 
 ## SINGLE CAMPAIGN EVIDENCE
 
-- **50/52 sarsens = West Woods** (Nash 2020, PXRF+ICP-MS)
+- **49/52 (3 outliers: upright 26, lintels 156, 160) sarsens = West Woods** (Nash 2020, PXRF+ICP-MS)
 - Antler picks: Trilithons 2585-2400, Circle 2580-2475
 - **Single season** — 1,000-1,500 workers, 1-2 years
 - **Not centuries of ad-hoc building. ONE UNIFIED CAMPAIGN.**
@@ -62,5 +62,5 @@
 ## SOURCES
 - Darvill et al. 2012 *Antiquity* 86: 1021–1040 (62 ¹⁴C, OxCal 4.1)
 - Parker Pearson et al. 2015, 2019, 2021 *Antiquity* — Quarries, Waun Mawn
-- Nash et al. 2020 *Sci Adv* — Sarsen provenance (50/52 = West Woods)
+- Nash et al. 2020 *Sci Adv* — Sarsen provenance (49/52 (3 outliers: upright 26, lintels 156, 160) = West Woods)
 - Parker Pearson 2021 *Antiquity* 95 — Waun Mawn OSL

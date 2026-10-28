@@ -427,7 +427,7 @@ TIMESTAMP: 1630 BC
 
 - **H0**: Rod derived from Stonehenge geometry (100.8ft/30)
 - **H1**: Rod = Polar Radius/6M (paleo-geodesy)
-- **Bayes Factor**: **513.5** for H1 (paleo-geodesy)
+- **Bayes Factor**: **513.5 (σ = 0.01 m; σ-dependent, not evidence)** for H1 (paleo-geodesy)
 - **p(random match)**: 0.02%
 
 **The match is either inherited paleo-science or staggering coincidence (p < 10⁻⁴).**
