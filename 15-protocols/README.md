@@ -1,3 +1,9 @@
+> **SAFETY AND CONSENT NOTICE — DO NOT RUN AS WRITTEN.**
+> - The visit steps expose participants to 110 Hz and 17 Hz tones and to 8 Hz infrasound for minutes at a time. No medical screening (cardiac, epilepsy, pregnancy), consent, risk statement, or stop rule is given. Remove these steps from any visit until an ethics review and screening process exist.
+> - Stonehenge is a Scheduled Monument and World Heritage Site. Tier 3 tests (cores, destructive sampling) and any press on the Altar Stone need Historic England consent and a scheduled-monument permit. None is recorded here.
+> - Clapping does not measure T30. T30 requires an impulse response or swept-sine measurement.
+> - Pass criteria (p < 0.01) have no sample size, power analysis, controls, or preregistration. Results from this protocol cannot be interpreted as written.
+
 # 📋 PROTOCOLS — HOW TO MEASURE IT (CONTINUED)
 
 ## VISIT PROTOCOL (WINTER SOLSTICE) — CONTINUED
