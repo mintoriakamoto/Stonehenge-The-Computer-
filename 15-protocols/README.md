@@ -11,19 +11,19 @@
 ### STEP-BY-STEP
 
 ```
-APPROACH (15:15)  — Walk Avenue, STAY SILENT. Feel the 8 Hz build in your chest.
+APPROACH (15:15)  — [REMOVED: human-exposure step; see safety notice]
 
-ENTER HORSESHOE (15:25) — Pass between Stones 53/54. Feel the pressure shift.
+ENTER HORSESHOE (15:25) — [REMOVED: human-exposure step]
 
 CALIBRATE (15:30) — Clap once, count to silence (0.6s = "one Stonehenge second").
 
 SUNSET (15:52) — Watch sun through trilithon gap (Stone 56 alignment).
 
-CHANT (15:55–16:05) — 110 Hz OM, 30s; 8 Hz tone, 60s; 17 Hz, 30s.
+CHANT (15:55–16:05) — [REMOVED: tone and infrasound exposure]
 
-WHISPER TEST (16:05–16:10) — Partner at 10m, both face trilithons, whisper.
+WHISPER TEST (16:05–16:10) — [REMOVED: human-exposure step]
 
-FLUTE (16:10–16:20) — Play bone flute/wooden pipe at 500–1000 Hz.
+FLUTE (16:10–16:20) — [REMOVED: human-exposure step]
 
 SILENCE (16:20–16:30) — Stand still, measure ambient T30.
 
@@ -132,9 +132,8 @@ OUTSIDE CONTROL (16:35) — Repeat tests 10m outside sarsens.
 #    Pass: ≥50 zones confirmed → Master Copy CONFIRMED
 
 # 3. NEURAL COUPLING PROTOCOL
-#    Conditions: Midwinter sunset, inside horseshoe, 110Hz flute, 500N press
-#    Targets: Theta↑, Gamma-PAC↑, HRV coh↑, BDNF↑ (all p<0.01)
-#    Pass: A > B/C on all 4 measures → Machine CONFIRMED
+#    [REMOVED: human-exposure protocol. Not to be run without ethics approval,
+#     medical screening and a stop rule.]
 ```
 
 **The machine is specified. The measurements are the only gate.**
@@ -212,9 +211,8 @@ python3 -c "import torch; print(torch.cuda.get_device_name(0))"
 #    Pass: ≥50 zones confirmed → Master Copy CONFIRMED
 
 # 3. NEURAL COUPLING PROTOCOL
-#    Conditions: Midwinter sunset, inside horseshoe, 110Hz flute, 500N press
-#    Targets: Theta↑, Gamma-PAC↑, HRV coh↑, BDNF↑ (all p<0.01)
-#    Pass: A > B/C on all 4 measures → Machine CONFIRMED
+#    [REMOVED: human-exposure protocol. Not to be run without ethics approval,
+#     medical screening and a stop rule.]
 ```
 
 **The machine is specified. The measurements are the only gate.**
