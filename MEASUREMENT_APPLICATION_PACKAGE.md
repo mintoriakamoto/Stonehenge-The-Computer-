@@ -1,3 +1,11 @@
+> **DRAFT — DO NOT SUBMIT.** This package asks a regulator (Scheduled Monument Consent) to approve activities justified by claims the repo does not support:
+> - Bayes factor 513.5 is σ-dependent (10²⁷⁰ to 1.28 across σ). It is not evidence.
+> - Linking a lintel width to a 'Sacred Rod' unit is an unexplained assumption; no source says the lintel width encodes the rod.
+> - 500 N is about 51 kgf: a strong hand push, not 'palm pressure'. Applying it to the Altar Stone is contact with a Scheduled Monument.
+> - '110 Hz at 60 dB (safe)' has no reference. Ethics approvals (IRB, NHS HRA) and heritage consent are not in place; they are listed as future steps.
+> - The Altar Stone origin (Orkney) and the piezo coefficient (d14 = 1.4 pC/N) are unsourced or contested.
+> Do not send to English Heritage until these are resolved and the claims are re-scored.
+
 # STONEHENGE THREE MEASUREMENTS: SMC APPLICATION PACKAGE
 ## Ready for English Heritage Scheduled Monument Consent Submission
 
