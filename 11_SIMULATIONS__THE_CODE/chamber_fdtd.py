@@ -2,7 +2,8 @@
 """
 CHAMBER_FDTD.py
 k-Wave FDTD setup for full Stonehenge acoustic simulation.
-Generates 92M-voxel medium grids (ρ, c, α) for CUDA-accelerated simulation.
+Generates medium grids (ρ, c, α) for CUDA-accelerated simulation.
+Default grid: 200³ = 8M voxels at 0.5 m (100 m domain).
 """
 
 import numpy as np
@@ -223,7 +224,11 @@ def create_medium_grid(stones, grid_size=200, voxel_size=0.5):
     # Place stones in grid
     for category, stone_list in stones.items():
         for stone in stone_list:
-            mat = materials.get(stone['material'], materials['chalk'])
+            # Aubrey holes are chalk-filled pits: no material contrast against the
+            # chalk background, so they are not placed in the medium.
+            if 'material' not in stone:
+                continue
+            mat = materials[stone['material']]
             
             # Create bounding box for stone
             if stone['type'] in ['sarsen_upright', 'trilithon_upright', 'sarsen_heel', 'station_stone']:

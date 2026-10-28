@@ -9,7 +9,7 @@ from .chamber_fdtD import generate_stonehenge_geometry
 from .master_report import generate_master_report
 
 __version__ = '1.0.0'
-__author__ = 'V3R1T4S'
+__author__ = 'Verification Standard'
 __all__ = [
     'AubreyRegister',
     'KnowledgeDecayModel',

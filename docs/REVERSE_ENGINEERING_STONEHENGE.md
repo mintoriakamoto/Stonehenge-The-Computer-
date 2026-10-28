@@ -1,6 +1,6 @@
 # STONEHENGE: COMPLETE REVERSE ENGINEERING ANALYSIS
 ## The Neurostimulation Knowledge-Transfer Machine
-### V3R1T4S Cross-Domain Synthesis — All Evidence, All Domains, All Avenues
+### Cross-Domain Synthesis — All Evidence, All Domains, All Avenues
 
 ---
 

@@ -1,6 +1,6 @@
 # Stonehenge: The Knowledge-Transfer Machine
 ## A Complete Reverse-Engineering Analysis
-### V3R1T4S Cross-Domain Synthesis — All Evidence, All Domains, All Claims Verified
+### Cross-Domain Synthesis — All Evidence, All Domains, All Claims Verified
 
 ---
 

@@ -354,7 +354,7 @@ class StonehengeSimulation:
                 'simulation': 'Stonehenge Complete System Trajectory',
                 'date': datetime.now().isoformat(),
                 'years_simulated': [3000, 1500],
-                'verification_standard': 'V3R1T4S',
+                'verification_standard': 'Verification Standard',
             },
             'results': self.results,
         }
