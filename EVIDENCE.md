@@ -96,9 +96,20 @@ Inference (judgment, not proven):
 - Individual stones marked particular groups or lineages (~35%; needs dates and isotopes hole by hole).
 - The Aubrey circle was a register of stored knowledge (~5%; no evidence).
 
-## 6. Not reached
+## 6. Metrological audit: calibration chains and critical gaps
+
+See [METROLOGY.md](./METROLOGY.md) for detailed traceability analysis of all measurements.
+
+| Chain | Primary Standard | Traceability | Critical Gap |
+|---|---|---|---|
+| Acoustic T30 (Cox et al. 2020, 1:12 model) | ISO 3382-1 | ✓ To ISO standard | **✗ Full-size scaling not validated** — model is enclosed; Stonehenge is open-air. Sabine scaling predicts T30 = 7.68 s; reality is 0–0.2 s |
+| Radiocarbon dating (AH32 OxA-18036, SUERC-30410) | NIST ¹⁴C half-life, IntCal curve | ✓ To NIST; ⚠ Curve version not stated | **✗ IntCal version unknown** — IntCal20 vs IntCal13 shifts dates ±50 yr. Dates given as 3030–2880 cal BC but curve choice not documented |
+| Sarsen haulage energy (32–64 GJ mech., 146–292 GJ metabolic) | Newton's laws, metabolic tables | ✓ Physics; ✗ Inputs unsourced | **✗ Friction coefficient 0.1–0.2 has no source** — no lab measurement of sledge on chalk. Energy varies 2–3× with friction alone; range is unbounded |
+| Petrie's rod (1.059393 m vs. WGS84 / 6×10⁶ = 1.0594587 m) | WGS84 polar radius (certified) | ✓ WGS84; ✗ Petrie 1880 calibration unknown | **✗ 0.006% difference is within Petrie's instrument uncertainty (~0.5–1%)**. Bayes factor analysis invalid (assumes σ = 0.001 m, unrealistic for 1880 surveying). Mark NOT SUPPORTED |
+
+## 7. Not reached
 
 - Marshall et al. 2012, English Heritage radiocarbon report (full lab-code table)
-- Petrie 1880 full text
+- Petrie 1880 full text; Petrie's rod (state and location at Petrie Museum, Cairo)
 - Full texts of Nash et al. 2020 and Clarke et al. 2024
 - Raw geophysics data (Stonehenge Hidden Landscapes Project) and the Historic England laser scan
