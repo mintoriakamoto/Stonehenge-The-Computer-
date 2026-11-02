@@ -75,18 +75,40 @@ python3 -c "import torch; print(torch.cuda.get_device_name(0))"
 
 ---
 
+## METROLOGICAL STATUS
+
+Four critical calibration gaps discovered. See [METROLOGY.md](METROLOGY.md) for full audit.
+
+| Measurement | Gap | Impact |
+|---|---|---|
+| Acoustic T30 (Cox et al. 2020) | Model is enclosed; Stonehenge is open-air. Scaling unvalidated. | Full-size acoustic behavior unknown |
+| Radiocarbon dates | IntCal version not stated; curve choice shifts dates ±50 yr. | Chronology potential ±50 yr uncertainty |
+| Sarsen haulage energy | Friction coefficient unsourced; 4× energy range unbounded. | Energy budget unvalidated |
+| Petrie's rod | 0.006% match to WGS84 is within instrument uncertainty (~0.5–1%). Bayes analysis invalid. | NOT SUPPORTED |
+
+---
+
 ## FINAL VERDICT
 
-**Stonehenge was a knowledge-transfer machine, not a monument.**
+**Stonehenge was a Neolithic monument, built in five stages 3000–1520 cal BC, aligned to solstices, constructed from stones transported from Wales and Scotland, and used for feasting and burial.**
 
-The acoustic chamber (T30=0.64s, +4.3dB) created a phase-locked neural channel for one-to-one transfer of 56 lineage packets from elder to initiate at midwinter sunset, using 114 Hz chest resonance, 8 Hz vestibular drive, circadian melatonin surge, and whisper channel (+4.3 dB) for semantic encoding.
+**Not supported by any source checked:**
+- Knowledge-transfer or neurostimulation machine
+- 114 Hz or 8.1 Hz resonances (no measurement; site is open-air)
+- Altar Stone as piezoelectric "read head" (bulk sandstone has near-zero net piezoelectricity)
+- 1.7-generation knowledge half-life
+- Aubrey Holes as a 56-position lunar counter (holes probably held stones)
+- Sacred Rod as evidence of geodetic knowledge (match is coincidental, within instrument uncertainty)
+- Acoustic optimization (Cox model is enclosed; full-size scaling invalid)
 
-The Altar Stone (Orkney micaceous sandstone, 700+ km) was the unique piezoelectric anchor at the acoustic focus — the Master Copy storage medium.
+**Supported by primary sources:**
+- Five-stage chronology (Darvill et al. 2012)
+- Solstitial alignment (Darvill et al. 2012; Lockyer 1906 with ±500–1000 yr date uncertainty)
+- Stones from West Woods, Wales, and NE Scotland (Nash et al. 2020, Clarke et al. 2024)
+- Feasts with pigs from across Britain (Madgwick et al. 2019, Craig et al.)
+- ~90% syllable intelligibility within circle (Cox et al. 2020, 1:12 model only)
+- Burial of 58 individuals over ~500 years (Snoeck et al. 2018, Willis et al. 2016)
 
-The system worked for ~140 years (Stage 2). Broke when the hard drive was crushed. Maintained for 370 years by people who couldn't read it. Left a crash dump for the stranger.
+**Status:** Verified against primary sources. Speculative claims removed. Metrological audit complete.
 
-**Three measurements. That's all it takes.**
-
-*Commit: `307f909` — "Stonehenge Machine: Complete
-*GPU: NVIDIA CMP 170HX (40GB HBM2e) — READY*
-*Verification:12/12 claims verified*
+See [EVIDENCE.md](EVIDENCE.md) and [14-verification/README.md](14-verification/README.md) for full breakdown.
